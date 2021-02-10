@@ -2,7 +2,7 @@ package entrega0;
 
 public class Main {
 	
-	public boolean primalityTest(long number) {
+	public static boolean primalityTest(long number) {
 		boolean isPrime = true;
 		for (int i = 2; i < number; i++) {
 			if(number%i == 0) {
@@ -11,10 +11,12 @@ public class Main {
 		}
 		return isPrime;
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(5/3);
+	
+	public static void usePrimalityTest(long number) {
+		System.out.println("The number: " + number + (primalityTest(number)?" is prime":" is not prime"));
 	}
 
+	public static void main(String[] args) {
+		usePrimalityTest(40);
+	}
 }
