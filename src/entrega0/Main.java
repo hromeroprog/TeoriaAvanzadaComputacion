@@ -17,7 +17,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		usePrimalityTest(37);
+		usePrimalityTest(454540055L);
 		usePrimalityTest(40);
 	}
 }
