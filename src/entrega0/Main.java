@@ -4,7 +4,7 @@ public class Main {
 	
 	public static boolean primalityTest(long number) {
 		boolean isPrime = true;
-		for (int i = 2; i < number; i++) {
+		for (long i = 2; i < number; i++) {
 			if(number%i == 0) {
 				isPrime = false;
 			}
@@ -17,6 +17,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
+		usePrimalityTest(37);
 		usePrimalityTest(40);
 	}
 }
