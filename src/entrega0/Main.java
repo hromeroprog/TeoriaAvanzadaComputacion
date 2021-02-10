@@ -13,11 +13,16 @@ public class Main {
 	}
 	
 	public static void usePrimalityTest(long number) {
-		System.out.println("The number: " + number + (primalityTest(number)?" is prime":" is not prime"));
+		long start1 = System.nanoTime();
+	    boolean result = primalityTest(number);
+	    long end1 = System.nanoTime();
+		System.out.println("The number: " + number + (result?" is prime":" is not prime,\t") + "Elapsed Time in nano seconds: "+ (end1-start1));
 	}
 
 	public static void main(String[] args) {
 		usePrimalityTest(454540055L);
+		usePrimalityTest(40);
+		usePrimalityTest(40);
 		usePrimalityTest(40);
 	}
 }
