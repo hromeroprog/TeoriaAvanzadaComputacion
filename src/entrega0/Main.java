@@ -28,21 +28,28 @@ public class Main {
 		return end_timer - start_timer;
 	}
 
-	public static void generateTest(int number_of_cases, BigInteger top_limit) throws IOException {
+	public static void generateTest(int number_of_cases) throws IOException {
 		ArrayList<BigInteger> numbers = new ArrayList<>();
 		ArrayList<Long> times = new ArrayList<>();
+		ArrayList<Boolean> is_prime = new ArrayList<>();
+		
 		for (int i = 0; i < number_of_cases; i++) {
+			long top_exp = i/12;
+			long top_l = (long)Math.pow(10L, top_exp +  1L);
+			BigInteger top_limit = BigInteger.valueOf(top_l);
+			System.out.println("Top limit: " + top_limit + "\tgen#" + i);
 			BigInteger test = Main.getRandomBigInteger(top_limit);
 			Long result = usePrimalityTest(test);
 			numbers.add(test);
 			times.add(result);
+			is_prime.add(primalityTest(test));
 		}
 		
 //		JFreeCharScatterChartExample chart = new JFreeCharScatterChartExample("Test de primalidad",
 //				"Coste computacional", numbers, times);
 //		chart.pack();
 //		chart.setVisible(true);
-		exportCSV(numbers, times);
+		exportCSV(numbers, times, is_prime);
 //				"Coste computacional", numbers, times);
 	}
 
@@ -56,12 +63,12 @@ public class Main {
 		return result;
 	}
 	
-	public static void exportCSV(ArrayList<BigInteger> numbers, ArrayList<Long> times) throws IOException{
+	public static void exportCSV(ArrayList<BigInteger> numbers, ArrayList<Long> times, ArrayList<Boolean> is_prime) throws IOException{
 		FileWriter writer = new FileWriter("./data.csv");
 
-	    String result = "Number,Time\n";
+	    String result = "Number,Time,isPrime\n";
 	    for (int i = 0; i< numbers.size(); i++) {
-			result+= numbers.get(i).toString() + "," + times.get(i).toString();
+			result+= numbers.get(i).toString() + "," + times.get(i).toString() + "," + is_prime.get(i).toString();
 			if (i < numbers.size()-1) result += "\n";
 		}
 	    
@@ -71,7 +78,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException{
-		generateTest(50, BigInteger.valueOf(10000000));
+		generateTest(100);
 		System.out.println("\n\nEND");
 		
 	}
