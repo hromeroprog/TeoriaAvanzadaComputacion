@@ -62,8 +62,9 @@ public class Main {
 	    String result = "Number,Time\n";
 	    for (int i = 0; i< numbers.size(); i++) {
 			result+= numbers.get(i).toString() + "," + times.get(i).toString();
-			result += "\n";
+			if (i < numbers.size()-1) result += "\n";
 		}
+	    
 
 	    writer.write(result);
 	    writer.close();
