@@ -34,15 +34,16 @@ public class Main {
 		ArrayList<Boolean> is_prime = new ArrayList<>();
 		
 		for (int i = 0; i < number_of_cases; i++) {
-			long top_exp = i/12;
-			long top_l = (long)Math.pow(10L, top_exp +  1L);
-			BigInteger top_limit = BigInteger.valueOf(top_l);
-			System.out.println("Top limit: " + top_limit + "\tgen#" + i);
-			BigInteger test = Main.getRandomBigInteger(top_limit);
-			Long result = usePrimalityTest(test);
-			numbers.add(test);
-			times.add(result);
-			is_prime.add(primalityTest(test));
+			for (long top_exp = 3L; top_exp < 10L; top_exp++) {
+				long top_l = (long)Math.pow(10L, top_exp);
+				BigInteger top_limit = BigInteger.valueOf(top_l);
+				System.out.println("Top limit: " + top_limit + "\tgen#" + i);
+				BigInteger test = Main.getRandomBigInteger(top_limit);
+				Long result = usePrimalityTest(test);
+				numbers.add(test);
+				times.add(result);
+				is_prime.add(primalityTest(test));
+			}
 		}
 		
 //		JFreeCharScatterChartExample chart = new JFreeCharScatterChartExample("Test de primalidad",
@@ -78,8 +79,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException{
-		generateTest(100);
+		generateTest(40);
 		System.out.println("\n\nEND");
-		
 	}
 }

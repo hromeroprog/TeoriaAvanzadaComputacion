@@ -15,7 +15,10 @@ import seaborn as sns
 #df = sns.load_dataset("data.csv")
  
 # Use the 'hue' argument to provide a factor variable
-sns.lmplot( x="Number", y="Time", data=df, fit_reg=False, hue='isPrime', legend=False, scatter_kws={"s": 15})
+graph = sns.lmplot( x="Number", y="Time", data=df, fit_reg=False, hue='isPrime', legend=True, scatter_kws={"s": 10})
  
 # Move the legend to an empty part of the plot
-plt.legend(loc='lower right')
+#plt.legend(loc='lower right')
+graph.set(xscale="linear", yscale="linear")
+
+plt.show()
