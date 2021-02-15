@@ -7,7 +7,7 @@ Created on Mon Feb 15 09:06:38 2021
 
 import pandas as pd
 import matplotlib.pyplot as plt
-df  = pd.read_csv("data.csv")
+df  = pd.read_csv("dataImprovedPrimes.csv")
 
 df['Digit Count'] = [len(str(x)) for x in df['Number']]
 #df.plot(kind='scatter',x='Number',y='Time') # scatter plot

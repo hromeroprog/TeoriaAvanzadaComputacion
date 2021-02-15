@@ -7,7 +7,8 @@ Created on Fri Feb 12 13:51:10 2021
 
 import pandas as pd
 import matplotlib.pyplot as plt
-df  = pd.read_csv("data.csv")
+import numpy as np
+df  = pd.read_csv("dataImprovedPrimesAKS.csv")
 
 #df.plot(kind='scatter',x='Number',y='Time') # scatter plot
 
@@ -24,11 +25,14 @@ graph.set(xscale="linear", yscale="linear")
 
 plt.show()
 
-graph = sns.lmplot( x="Number", y="Time", data=df, fit_reg=True, order= 1, ci = None, hue='isPrime', legend=True, scatter_kws={"s": 10})
+graph = sns.lmplot( x="Number", y="Time", data=df, logx=True , ci = None, hue='isPrime', legend=True, scatter_kws={"s": 10})
 
  
 # Move the legend to an empty part of the plot
 #plt.legend(loc='lower right')
+ax = sns.regplot(x="Number", y="Time", data=df,
+                 x_estimator=np.mean, logx=True)
+
 graph.set(xscale="linear", yscale="linear")
 
 plt.show()
