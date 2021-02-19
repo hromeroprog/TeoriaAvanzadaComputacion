@@ -25,7 +25,7 @@ public class Main {
 
 	public static TestStructure usePrimalityTest(BigInteger test) {
 		long start_timer = System.currentTimeMillis();
-		BigInteger reduction = Main.factorizationReductionAlgorithm(test);
+		BigInteger reduction = factorizationReductionAlgorithm(test);
 		long end_timer = System.currentTimeMillis();
 		return new TestStructure(end_timer - start_timer, reduction);
 	}
@@ -36,20 +36,26 @@ public class Main {
 		ArrayList<Long> times = new ArrayList<>();
 		ArrayList<BigInteger> reductions = new ArrayList<>();
 
-		for (int i = 0; i < cases_per_size; i++) {
-			for (int size_of_number = lowest_size; size_of_number < highest_size; size_of_number++) {
-				BigInteger test = Tools.getRandomBigPrime(size_of_number);
+		for (int size_of_number = lowest_size; size_of_number < highest_size; size_of_number++){	
+			for (int i = 0; i < cases_per_size; i++){
+				BigInteger test = Tools.getRandomBigInteger(size_of_number);
 				TestStructure result = usePrimalityTest(test);
 				numbers.add(test);
 				times.add(result.time);
 				reductions.add(result.result);
+				
+				if(i%10 == 0) System.out.println("Finished test of size: " + size_of_number + " -- Number: " + i);
 			}
+			System.out.println("Finished tests of size: " + size_of_number);
 		}
-		Tools.exportCSV("./" + filename + ".csv", numbers, times, reductions);
+		Tools.exportCSV("./reduction_files/" + filename + ".csv", numbers, times, reductions);
+		System.out.println("File exported successfully");
 	}
 
 	public static void main(String[] args) throws IOException {
-		BigInteger big = new BigInteger("10");
-		System.out.println(factorizationReductionAlgorithm(big));
+		
+		generateTest(40, 3, 10, "prueba_de_salida");
+		
+		
 	}
 }

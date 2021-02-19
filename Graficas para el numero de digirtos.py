@@ -16,7 +16,7 @@ import seaborn as sns
 #df = sns.load_dataset("data.csv")
  
 # Use the 'hue' argument to provide a factor variable
-graph = sns.lmplot( x="Digit Count", y="Time", data=df, fit_reg=True, order= 6, ci = None, hue='isPrime', legend=True, scatter_kws={"s": 10})
+graph = sns.lmplot( x="Digit Count", y="Time (ms)", data=df, fit_reg=True, order= 6, ci = None, hue='isPrime', legend=True, scatter_kws={"s": 10})
  
 # Move the legend to an empty part of the plot
 #plt.legend(loc='lower right')

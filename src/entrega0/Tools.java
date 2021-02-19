@@ -1,4 +1,4 @@
-package entrega1;
+package entrega0;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -43,12 +43,12 @@ public class Tools {
 	}
 	
 	public static void exportCSV(String output_folder, ArrayList<BigInteger> numbers, ArrayList<Long> times,
-			ArrayList<BigInteger> reductions) throws IOException {
+			ArrayList<Boolean> primes) throws IOException {
 		FileWriter writer = new FileWriter(output_folder);
 
-		String result = "Number,Time,Reduction\n";
+		String result = "Number,Time,isPrime\n";
 		for (int i = 0; i < numbers.size(); i++) {
-			result += numbers.get(i).toString() + "," + times.get(i).toString() + "," + reductions.get(i).toString();
+			result += numbers.get(i).toString() + "," + times.get(i).toString() + "," + primes.get(i).toString();
 			if (i < numbers.size() - 1)
 				result += "\n";
 		}

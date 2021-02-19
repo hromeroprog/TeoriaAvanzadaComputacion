@@ -220,22 +220,6 @@ public class AKS
         return p;
     }
 
-    /* array to populate sieve array
-     * the sieve array looks like this
-     *  
-     *  y index -> 0 1 2 3 4 5 6 ... n
-     *  x index    1  
-     *     |       2   T - T - T ...
-     *     \/      3     T - - T ...
-     *             4       T - - ...
-     *             .         T - ...
-     *             .           T ...
-     *             n
-     *             
-     *
-     *
-     *
-     */ 
     public void sieveEratos()
     {
         int i, j;
