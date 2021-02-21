@@ -10,36 +10,13 @@ public class Main {
 
 	public static BigInteger factorizationReductionAlgorithm(BigInteger test) {
 		Set<BigInteger> set = new HashSet<BigInteger>();
-		
-		while (!test.isProbablePrime(1)){
-		for (BigInteger bi = BigInteger.valueOf(2); bi.compareTo(test) <= 0; bi = bi.add(BigInteger.ONE))
-			if (test.mod(bi).equals((BigInteger.ZERO))) {
-				test = test.divide(bi);
-				set.add(bi);
-				break;
-			}
-		}
-		set.add(test);
 
-		BigInteger result = BigInteger.ONE;
-		for (BigInteger factor : set) {
-			result = result.multiply(factor);
-		}
-		return result;
-	}
-	
-	/*--------------------------------------------------Otra forma ------------------------------------------------------------------------*/
-	
-	
-	public static BigInteger factorizationReductionAlgorithm2(BigInteger test) {
-		Set<BigInteger> set = new HashSet<BigInteger>();
-		
-		while (test.compareTo(BigInteger.ONE) != 0){
-		for (BigInteger bi = BigInteger.valueOf(2); bi.compareTo(test) <= 0; bi = bi.add(BigInteger.ONE))
+		for (BigInteger bi = BigInteger.valueOf(2); bi.compareTo(test) <= 0; bi = bi.add(BigInteger.ONE)) {
+
 			if (test.mod(bi).equals((BigInteger.ZERO))) {
 				test = test.divide(bi);
 				set.add(bi);
-				break;
+				bi = bi.subtract(BigInteger.ONE);
 			}
 		}
 		BigInteger result = BigInteger.ONE;
@@ -48,6 +25,7 @@ public class Main {
 		}
 		return result;
 	}
+
 
 	public static TestStructure usePrimalityTest(BigInteger test) {
 		long start_timer = System.currentTimeMillis();
@@ -62,15 +40,16 @@ public class Main {
 		ArrayList<Long> times = new ArrayList<>();
 		ArrayList<BigInteger> reductions = new ArrayList<>();
 
-		for (int size_of_number = lowest_size; size_of_number < highest_size; size_of_number++){	
-			for (int i = 0; i < cases_per_size; i++){
+		for (int size_of_number = lowest_size; size_of_number < highest_size; size_of_number++) {
+			for (int i = 0; i < cases_per_size; i++) {
 				BigInteger test = Tools.getRandomBigInteger(size_of_number);
 				TestStructure result = usePrimalityTest(test);
 				numbers.add(test);
 				times.add(result.time);
 				reductions.add(result.result);
-				
-				if(i%10 == 0) System.out.println("Finished test of size: " + size_of_number + " -- Number: " + i);
+
+				if (i % 10 == 0)
+					System.out.println("Finished test of size: " + size_of_number + " -- Number: " + i);
 			}
 			System.out.println("Finished tests of size: " + size_of_number);
 		}
@@ -79,9 +58,8 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		
-		generateTest(40, 3, 10, "prueba_de_salida");
-		
-		
+		BigInteger test = new BigInteger("2520");
+		System.out.println(factorizationReductionAlgorithm(test));
+		// generateTest(40, 3, 10, "prueba_de_salida");
 	}
 }
