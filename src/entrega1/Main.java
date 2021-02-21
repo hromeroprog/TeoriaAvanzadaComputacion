@@ -10,11 +10,16 @@ public class Main {
 
 	public static BigInteger factorizationReductionAlgorithm(BigInteger test) {
 		Set<BigInteger> set = new HashSet<BigInteger>();
+		
+		while (!test.isProbablePrime(1)){
 		for (BigInteger bi = BigInteger.valueOf(2); bi.compareTo(test) <= 0; bi = bi.add(BigInteger.ONE))
 			if (test.mod(bi).equals((BigInteger.ZERO))) {
 				test = test.divide(bi);
 				set.add(bi);
+				break;
 			}
+		}
+		set.add(test);
 
 		BigInteger result = BigInteger.ONE;
 		for (BigInteger factor : set) {
