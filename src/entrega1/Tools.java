@@ -4,7 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
+
+import entrega0.AKS;
 
 
 public class Tools {
@@ -28,18 +31,28 @@ public class Tools {
 		for (int i = 0; i < size_of_number-1 ; i++) {
 			str_res += ThreadLocalRandom.current().nextInt(1, 10);
 		}
-		str_res += ThreadLocalRandom.current().nextInt(1, 10);
+		str_res += ThreadLocalRandom.current().nextInt(0, 10);
 		return new BigInteger(str_res);
 	}
 	
 	public static BigInteger getRandomBigPrime(int size_of_number) {
 		BigInteger result;
+		Random rnd = new Random();
 		while(true) {
-			result = getRandomBigInteger(size_of_number);
-			AKS myAKS = new AKS(result);
-			if(myAKS.isPrime) break;
+			result = BigInteger.probablePrime(transformSizeToBits(size_of_number), rnd);
+			if(result.toString().length() == size_of_number) {
+				AKS myAKS = new AKS(result);
+				if(myAKS.isPrime) break;
+			}
 		}
 		return result;
+	}
+	
+	public static int transformSizeToBits(int size_of_number) {
+		int bottom_limit = (int)(Math.log(Math.pow(10, size_of_number-1))/Math.log(2));
+		int top_limit = (int)(Math.log(Math.pow(10, size_of_number))/Math.log(2)) + 1;
+		
+		return ThreadLocalRandom.current().nextInt(bottom_limit, top_limit + 1);
 	}
 	
 	public static void exportCSV(String output_folder, ArrayList<BigInteger> numbers, ArrayList<Long> times,
