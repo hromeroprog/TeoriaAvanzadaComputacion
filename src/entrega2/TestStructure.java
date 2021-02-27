@@ -1,4 +1,4 @@
-package entrega3;
+package entrega2;
 
 public class TestStructure {
 	public long time;

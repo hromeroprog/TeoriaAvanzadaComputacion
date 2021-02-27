@@ -1,4 +1,4 @@
-package entrega3;
+package entrega2;
 
 import java.io.FileWriter;
 import java.io.IOException;
