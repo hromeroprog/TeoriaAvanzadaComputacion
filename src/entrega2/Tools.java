@@ -39,7 +39,7 @@ public class Tools {
         return ThreadLocalRandom.current().nextInt(bottom_limit, top_limit + 1);
     }
 
-    public static void exportCSV(String output_folder, ArrayList<BigInteger> numbers, ArrayList<Long> times,
+    public static void exportCSV(String output_folder, ArrayList<BigInteger> numbers, ArrayList<Float> times,
                                  ArrayList<Boolean> primes) throws IOException {
         FileWriter writer = new FileWriter(output_folder);
 
