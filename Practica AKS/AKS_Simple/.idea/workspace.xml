@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e4e6dc9-a6a3-4b77-a8e9-6bf88cfc1acf" name="Default Changelist" comment="" />
+    <list default="true" id="1e4e6dc9-a6a3-4b77-a8e9-6bf88cfc1acf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/ObtainRTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AKS_Simple/ObtainRTiming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/PerfectPowTiming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AKS_Simple/PerfectPowTiming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/isPower/composites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/isPower/composites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/isPower/primes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/isPower/primes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObtainRTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObtainRTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PerfectPowTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PerfectPowTiming.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1pwx0BBUSOSHqgENdqRDG1jdvnb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -30,7 +44,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObtainRTiming">
+  <component name="RunManager" selected="Application.PerfectPowTiming">
     <configuration name="AksSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AksSimple" />
       <module name="AKS_Simple" />
@@ -79,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObtainRTiming" />
         <item itemvalue="Application.PerfectPowTiming" />
+        <item itemvalue="Application.ObtainRTiming" />
         <item itemvalue="Application.AksSimple" />
         <item itemvalue="Application.AksTiming" />
         <item itemvalue="Application.MillerRabinTiming" />
@@ -95,11 +109,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616107730690</updated>
-      <workItem from="1616107731802" duration="15477000" />
+      <workItem from="1616107731802" duration="17260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

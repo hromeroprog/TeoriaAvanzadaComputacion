@@ -28,7 +28,7 @@ public class PerfectPowTiming {
                 AKS a = new AKS(n);
                 System.out.print(".");
                 long start = System.currentTimeMillis();
-                a.obtainR();
+                a.isPower();
                 long end = System.currentTimeMillis();
                 cumulativeSumPrimes += ((end-start)/1000);
 
@@ -36,7 +36,7 @@ public class PerfectPowTiming {
                 a = new AKS(n);
                 System.out.print(".");
                 start = System.currentTimeMillis();
-                a.obtainR();
+                a.isPower();
                 end = System.currentTimeMillis();
                 cumulativeSumComposites += ((end-start)/1000);
             }

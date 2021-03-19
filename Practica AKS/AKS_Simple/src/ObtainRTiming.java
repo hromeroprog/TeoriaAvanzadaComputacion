@@ -28,7 +28,7 @@ public class ObtainRTiming {
                 AKS a = new AKS(n);
                 System.out.print(".");
                 long start = System.currentTimeMillis();
-                a.isPower();
+                a.obtainR();
                 long end = System.currentTimeMillis();
                 cumulativeSumPrimes += ((end-start)/1000);
 
@@ -36,7 +36,7 @@ public class ObtainRTiming {
                 a = new AKS(n);
                 System.out.print(".");
                 start = System.currentTimeMillis();
-                a.isPower();
+                a.obtainR();
                 end = System.currentTimeMillis();
                 cumulativeSumComposites += ((end-start)/1000);
             }
