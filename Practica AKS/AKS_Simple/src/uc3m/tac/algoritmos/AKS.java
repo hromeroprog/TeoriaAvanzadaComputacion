@@ -141,6 +141,7 @@ public class AKS extends Thread {
         if (isPower()) return false;
 
         BigInteger r = obtainR();
+
         // If 1 < gcd(a,n) < n for some a <= r, output COMPOSITE
         if (!checkMCD(r)) return false;
 

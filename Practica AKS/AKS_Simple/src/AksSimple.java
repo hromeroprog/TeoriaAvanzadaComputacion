@@ -14,7 +14,7 @@ public class AksSimple {
 
     public static void main(String[] args) {
         
-        BigInteger n = BigInteger.probablePrime(8, new SecureRandom());
+        BigInteger n = BigInteger.probablePrime(12, new SecureRandom());
         System.out.println(n);
         // Creating an instance of the AKS algorithm
         AKS aks = new AKS(n);
@@ -25,17 +25,6 @@ public class AksSimple {
 
         System.out.println(result);
         System.out.println("In " + (end - start) + " ms");
-
-        int bits = 8;
-
-        SecureRandom r = new SecureRandom();
-        for (int i = 0; i< 10; i++){
-            n = Tools.getBigIntegerFromBits(bits, r);
-            System.out.println("Random " + n);
-
-            n = BigInteger.probablePrime(bits, r);
-            System.out.println("Random prime " + n);
-        }
 
     }
 }
