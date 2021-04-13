@@ -10,8 +10,8 @@ En el propio directorio "./src" hay disponibles tres clases ejecutables distinta
 cómo usar las clases AKS y MillerRabin: 
 
 - AksSimple, 
-- AksTiming y 
-- MillerRabinTiming.
+- timers.AksTiming y
+- timers.MillerRabinTiming.
 
 Cada una de ellas contiene su propio método main() por lo que se pueden crear tres programas completamente separados.
 

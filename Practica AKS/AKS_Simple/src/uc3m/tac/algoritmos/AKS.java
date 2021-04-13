@@ -1,6 +1,7 @@
 package uc3m.tac.algoritmos;
 
 import java.math.BigInteger;
+import tools.Tools;
 
 
 /**
@@ -66,7 +67,7 @@ public class AKS extends Thread {
     public boolean isPower(){
         // If ( n = a^b for a in natural numbers and b > 1), output TRUE
         BigInteger base = BigInteger.valueOf(2);
-        BigInteger aSquared;
+        BigInteger n_sqrt = Tools.sqrt(this.n);
 
         do {
             BigInteger result;
@@ -87,13 +88,11 @@ public class AKS extends Thread {
                 n_isprime = false;
                 return true;
             }
-
             if (verbose) System.out.println(n + " is not a perfect power of " + base);
 
             base = base.add(BigInteger.ONE);
-            aSquared = base.pow(2);
         }
-        while (aSquared.compareTo(this.n) <= 0);
+        while (base.compareTo(n_sqrt) <= 0);
         if (verbose) System.out.println(n + " is not a perfect power of any integer less than its square root");
         return false;
     }
@@ -191,7 +190,7 @@ public class AKS extends Thread {
      * @param n BigInteger to calculate the totient of
      * @return phi(r)--number of integers less than r that are coprime
      */
-    BigInteger totient(BigInteger n) {
+    public static BigInteger totient(BigInteger n) {
         BigInteger result = n;
 
         for (BigInteger i = BigInteger.valueOf(2); n.compareTo(i.multiply(i)) > 0; i = i.add(BigInteger.ONE)) {

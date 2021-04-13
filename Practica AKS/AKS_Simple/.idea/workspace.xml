@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4e6dc9-a6a3-4b77-a8e9-6bf88cfc1acf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/outputs/obtainR/primes 2 to parse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/obtainR/primes2parse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timers/ObtainRAndCheckMCDTiming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Graficacion/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEEME-README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LEEME-README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/AksSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AKS_Simple/AksSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/AksTiming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/MillerRabinTiming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/ObtainRTiming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/PerfectPowTiming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AKS_Simple/uc3m/tac/algoritmos/AKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AKS_Simple/uc3m/tac/algoritmos/AKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/AKS_Simple/uc3m/tac/algoritmos/AKSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/AKS_Simple/uc3m/tac/algoritmos/AKSTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/obtainR/composites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/obtainR/composites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/obtainR/primes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/obtainR/primes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AksSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AksSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AksTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timers/AksTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MillerRabinTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timers/MillerRabinTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObtainRTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timers/TotientTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PerfectPowTiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timers/PerfectPowTiming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Tools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uc3m/tac/algoritmos/AKS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uc3m/tac/algoritmos/AKS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +53,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/timers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="timers" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AksSimple">
+  <component name="RunManager" selected="Application.ObtainRAndCheckMCDTiming">
     <configuration name="AksSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AksSimple" />
       <module name="AKS_Simple" />
@@ -48,30 +69,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AksTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AksTiming" />
+    <configuration name="CheckMCDTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckMCDTiming" />
       <module name="AKS_Simple" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MillerRabinTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MillerRabinTiming" />
-      <module name="AKS_Simple" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObtainRTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObtainRTiming" />
+    <configuration name="ObtainRAndCheckMCDTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timers.ObtainRAndCheckMCDTiming" />
       <module name="AKS_Simple" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PerfectPowTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PerfectPowTiming" />
+      <option name="MAIN_CLASS_NAME" value="timers.PerfectPowTiming" />
       <module name="AKS_Simple" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotientTiming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timers.TotientTiming" />
+      <module name="AKS_Simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObtainRAndCheckMCDTiming" />
         <item itemvalue="Application.AksSimple" />
+        <item itemvalue="Application.TotientTiming" />
+        <item itemvalue="Application.CheckMCDTiming" />
         <item itemvalue="Application.PerfectPowTiming" />
-        <item itemvalue="Application.ObtainRTiming" />
-        <item itemvalue="Application.AksTiming" />
-        <item itemvalue="Application.MillerRabinTiming" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616107730690</updated>
-      <workItem from="1616107731802" duration="18023000" />
+      <workItem from="1616107731802" duration="36402000" />
     </task>
     <servers />
   </component>
