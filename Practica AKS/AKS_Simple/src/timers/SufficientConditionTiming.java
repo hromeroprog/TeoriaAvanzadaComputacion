@@ -62,7 +62,7 @@ public class SufficientConditionTiming {
 			}
 		}
 		Tools.exportCSV("./outputs/sufficientCondition/primesStop.csv", primes, primes_r, primes_times);
-		System.out.println("Finished MCDTiming");
+		System.out.println("Finished sufficientCondition");
 		return;
 	}
 
