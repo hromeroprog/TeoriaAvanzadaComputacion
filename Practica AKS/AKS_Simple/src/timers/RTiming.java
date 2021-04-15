@@ -1,22 +1,22 @@
 package timers;
 
-import tools.Tools;
-import uc3m.tac.algoritmos.AKS;
-import java.awt.AWTException;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class PerfectPowTiming {
+import tools.Tools;
+import uc3m.tac.algoritmos.AKS;
+
+public class RTiming {
 	int minDigits = 5;
-	int maxDigits = 100;
+	int maxDigits = 200;
 	int iterations = 70;
 	boolean keepExecution;
 	long delay;
 
-	public PerfectPowTiming(int delay_in_seconds) {
+	public RTiming(int delay_in_seconds) {
 		this.keepExecution = true;
 		this.delay = (long) delay_in_seconds * 1000;
 	}
@@ -37,7 +37,7 @@ public class PerfectPowTiming {
 				BigInteger n = Tools.getRandomBigIntegerPrime(digits);
 				AKS a = new AKS(n);
 				long start = System.currentTimeMillis();
-				a.isPower();
+				a.obtainR();
 				long end = System.currentTimeMillis();
 				primes.add(n);
 				primes_times.add(end - start);
@@ -46,7 +46,7 @@ public class PerfectPowTiming {
 				a = new AKS(n);
 				System.out.print(".");
 				start = System.currentTimeMillis();
-				a.isPower();
+				a.obtainR();
 				end = System.currentTimeMillis();
 				composites.add(n);
 				composites_times.add(end - start);
@@ -61,18 +61,19 @@ public class PerfectPowTiming {
 				break;
 			}
 		}
-		Tools.exportCSV("./outputs/isPower/primesStop.csv", primes, primes_times);
-		Tools.exportCSV("./outputs/isPower/compositesStop.csv", composites, composites_times);
-		System.out.println("Finished PerfectPowOutputs");
+		Tools.exportCSV("./outputs/obtainR/primesStop.csv", primes, primes_times);
+		Tools.exportCSV("./outputs/obtainR/compositesStop.csv", composites, composites_times);
+		System.out.println("Finished RTiming");
 		return;
 	}
 
-	private TimerTask getTimerTask(PerfectPowTiming ppt) {
+	private TimerTask getTimerTask(RTiming rt) {
 		TimerTask timertask = new TimerTask() {
 			public void run() {
-				ppt.keepExecution = false;
+				rt.keepExecution = false;
 			}
 		};
 		return timertask;
 	}
+
 }

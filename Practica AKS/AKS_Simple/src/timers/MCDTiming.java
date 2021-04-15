@@ -1,30 +1,30 @@
 package timers;
 
-import tools.Tools;
-import uc3m.tac.algoritmos.AKS;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class TotientTiming {
-	int minDigits = 5;
+import tools.Tools;
+import uc3m.tac.algoritmos.AKS;
+
+public class MCDTiming {
+	int minDigits = 3;
 	int maxDigits = 200;
 	int iterations = 70;
 	boolean keepExecution;
 	long delay;
 
-	public TotientTiming(int delay_in_seconds) {
+	public MCDTiming(int delay_in_seconds) {
 		this.keepExecution = true;
 		this.delay = (long) delay_in_seconds * 1000;
 	}
 
 	public void run() throws IOException {
 		ArrayList<BigInteger> primes = new ArrayList<>();
-		ArrayList<BigInteger> composites = new ArrayList<>();
+		ArrayList<BigInteger> primes_r = new ArrayList<>();
 		ArrayList<Long> primes_times = new ArrayList<>();
-		ArrayList<Long> composites_times = new ArrayList<>();
 
 		// GESTIONAR UNA POSIBLE SALIDA ANTES DE QUE TERMINE LA EJECUCION
 		Timer timer = new Timer("Timer");
@@ -34,40 +34,40 @@ public class TotientTiming {
 			System.out.print("\nEvaluando numeros de \t" + digits + "digitos");
 			for (int i = 0; i < iterations; i++) {
 				BigInteger n = Tools.getRandomBigIntegerPrime(digits);
-				long start = System.currentTimeMillis();
-				AKS.totient(n);
-				long end = System.currentTimeMillis();
-				primes.add(n);
-				primes_times.add(end - start);
-
-				n = Tools.getRandomBigInteger(digits);
-				System.out.print(".");
-				start = System.currentTimeMillis();
-				AKS.totient(n);
-				end = System.currentTimeMillis();
-				composites.add(n);
-				composites_times.add(end - start);
+				AKS a = new AKS(n);
+				
+				//PRIMES
+				for(int r_d = 3; r_d < digits; r_d++) {
+					BigInteger r = Tools.getRandomBigIntegerPrime(r_d);
+					long start = System.currentTimeMillis();
+					a.checkMCD(r);
+					long end = System.currentTimeMillis();
+					primes.add(n);
+					primes_r.add(r);
+					primes_times.add(end - start);
+					if (!this.keepExecution)
+						break;
+				}
 
 				if (!this.keepExecution)
 					break;
 				if (i % 5 == 0)
-					System.out.println("Totient: " + i + "/" + iterations + "\t" + (end - start) + "ms");
+					System.out.println("" + i + "/" + iterations + "\t");
 			}
 			if (!this.keepExecution) {
 				timer.cancel();
 				break;
 			}
 		}
-		Tools.exportCSV("./outputs/totient/primesStop.csv", primes, primes_times);
-		Tools.exportCSV("./outputs/totient/compositesStop.csv", composites, composites_times);
-		System.out.println("Finished Totient");
+		Tools.exportCSV("./outputs/checkMCD/primesStop.csv", primes, primes_r ,primes_times);
+		System.out.println("Finished MCDTiming");
 		return;
 	}
 
-	private TimerTask getTimerTask(TotientTiming tt) {
+	private TimerTask getTimerTask(MCDTiming mcdt) {
 		TimerTask timertask = new TimerTask() {
 			public void run() {
-				tt.keepExecution = false;
+				mcdt.keepExecution = false;
 			}
 		};
 		return timertask;

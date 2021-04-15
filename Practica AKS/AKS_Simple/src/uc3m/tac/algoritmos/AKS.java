@@ -154,7 +154,21 @@ public class AKS extends Thread {
         // if (X+i)^n <>�X^n + i (mod X^r - 1,n), output composite;
 
         // sqrt(totient)log(n)
-        int limit = (int) (Math.sqrt(totient(r).doubleValue()) * this.log());
+        if (!this.sufficientCondition(r)) {
+        	n_isprime = false;
+        	return n_isprime;
+        }
+        
+        
+    
+
+        n_isprime = true;
+        return n_isprime;
+    }
+    
+    
+    public boolean sufficientCondition(BigInteger r) {
+    	int limit = (int) (Math.sqrt(totient(r).doubleValue()) * this.log());
         // X^r - 1
         Poly modPoly = new Poly(BigInteger.ONE, r.intValue()).minus(new Poly(BigInteger.ONE, 0));
         // X^n (mod X^r - 1, n)
@@ -170,14 +184,11 @@ public class AKS extends Thread {
                 if (verbose) System.out.println("x^" + n + " + " + i + " mod (x^" + r + " - 1, " + n + ") = " + p);
                 // if (verbose) System.out.println("(x+i)^" + n + " = x^" + n + " + " + i + " (mod x^" + r + " - 1, " + n + ") failed");
                 factor = BigInteger.valueOf(i);
-                n_isprime = false;
-                return n_isprime;
+                return false;
             } else if (verbose)
                 System.out.println("(x+" + i + ")^" + n + " = x^" + n + " + " + i + " mod (x^" + r + " - 1, " + n + ") true");
         }
-
-        n_isprime = true;
-        return n_isprime;
+        return true;
     }
 
 
@@ -205,7 +216,6 @@ public class AKS extends Thread {
             result = result.subtract(result.divide(n));
 
         return result;
-
     }
 
     /***
