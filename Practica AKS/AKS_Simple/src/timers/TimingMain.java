@@ -5,7 +5,7 @@ import java.io.IOException;
 public class TimingMain {
 	public static void main(String[] args) throws IOException {
 		//Tiempo en segundos
-		int time = 2*60*60/4; // (6 horas) * (60 minutos/hora) * (60 segundos/minuto) / (5 metodos)
+		int time = 2*80*60/4; // (6 horas) * (60 minutos/hora) * (60 segundos/minuto) / (5 metodos)
 		
 //		PerfectPowTiming ppt = new PerfectPowTiming(time);
 //		ppt.run();
