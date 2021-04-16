@@ -12,7 +12,7 @@ import uc3m.tac.algoritmos.AKS;
 public class MCDTiming {
 	int minDigits = 3;
 	int maxDigits = 200;
-	int iterations = 70;
+	int iterations = 50;
 	boolean keepExecution;
 	long delay;
 
@@ -35,19 +35,17 @@ public class MCDTiming {
 			for (int i = 0; i < iterations; i++) {
 				BigInteger n = Tools.getRandomBigIntegerPrime(digits);
 				AKS a = new AKS(n);
-				
-				//PRIMES
-				for(int r_d = 3; r_d < digits; r_d++) {
-					BigInteger r = Tools.getRandomBigIntegerPrime(r_d);
-					long start = System.currentTimeMillis();
-					a.checkMCD(r);
-					long end = System.currentTimeMillis();
-					primes.add(n);
-					primes_r.add(r);
-					primes_times.add(end - start);
-					if (!this.keepExecution)
-						break;
-				}
+
+				// PRIMES
+				BigInteger r = a.obtainR();
+				long start = System.currentTimeMillis();
+				a.checkMCD(r);
+				long end = System.currentTimeMillis();
+				primes.add(n);
+				primes_r.add(r);
+				primes_times.add(end - start);
+				if (!this.keepExecution)
+					break;
 
 				if (!this.keepExecution)
 					break;
@@ -59,7 +57,7 @@ public class MCDTiming {
 				break;
 			}
 		}
-		Tools.exportCSV("./outputs/checkMCD/primesStop.csv", primes, primes_r ,primes_times);
+		Tools.exportCSV("./outputs/checkMCD/primesStop.csv", primes, primes_r, primes_times);
 		System.out.println("Finished MCDTiming");
 		return;
 	}
