@@ -1,0 +1,15 @@
+Entrega FINAL:
+Debéis entregar un archivo zip de nombre MT03-80-Fernandez-Medrano-Romero.zip, 
+donde ApellidoK es el primer apellido de cada alumno,
+puestos en orden alfabético.
+Con el contenido:
+ Un documento que recoja
+- los diseños y análisis de todos los apartados indicados en la memoria.
+- En anexos se podrá incluir el trabajo no solicitado explícitamente en
+este enunciado.
+Utilizad siempre imágenes en formato PNG.
+Nombre: memoria.pdf. Formato: pdf.
+ Los ficheros de todos los diseños, usando una nomenclatura sistemática
+(se propone seguir la numeración de apartados de este enunciado).
+- Las máquinas diseñadas, en formato jff.
+- Las imágenes de todas las máquinas, siempre en formato PNG.
