@@ -1,0 +1,3 @@
+Es similar a la MD de 4 cintas, pero con una ligera modificación que permite reconocer palíndromos de tamaño impar tambien.
+Esto demuestra la versatilidad y lo apropiado que es para el caso general el algoritmo planteado.
+No se ha plasmado en la memoria pero queríamos dejar constancia de que se ha realizado también este diseño.
