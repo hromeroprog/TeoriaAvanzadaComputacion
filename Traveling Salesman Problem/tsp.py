@@ -6,6 +6,7 @@ Created on Tue May  4 12:43:59 2021
 """
 from matplotlib import pyplot as plt
 import random
+import math
 
 class TSP:
     def __init__(self):
@@ -57,9 +58,40 @@ class TSP:
         self.solution = list(self.problema.keys())
         random.shuffle(self.solution)
         self.ordenar_solucion()
+    
+    def greedy_solve(self):
+        self.solution = list(self.problema.keys())
+        to_put = set(self.solution)
+        
+        new_solution = [self.solution[0]]
+        to_put.remove(self.solution[0])
         
         
+        while(len(to_put) > 1):
+            current = new_solution[-1]
+            current_distance = float('inf')
+            current_best = -1
+            
+            for city in to_put:
+                dist = self.distance(current, city)
+                if dist < current_distance:
+                    current_distance = dist
+                    current_best = city
+            
+            new_solution.append(current_best)
+            to_put.remove(current_best)  
+        new_solution.append(to_put.pop())
         
+        self.solution = new_solution
+        self.ordenar_solucion()  #Puede que haya que quitarlo para estudiar la complejidad
+        print('Solución greedy generada')
+            
+                
+        
+        
+    
+    def distance(self, city1, city2):
+        return math.sqrt((self.problema[city1][0]-self.problema[city2][0])**2 + (self.problema[city1][1]-self.problema[city2][1])**2)
     
     def draw(self):
         x = [coord[0] for coord in self.problema.values()]

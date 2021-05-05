@@ -12,6 +12,6 @@ if __name__ == '__main__':
     fichero = "ulysses16.tsp"
     #tsp.obtener_desde_archivo_tsp(fichero)  #Lee de un archivo .tsp
     tsp.obtener_random(30) #Genera un escenario aleatorio de la dimension que le pases
-    tsp.solve() #Genera una solucion de ruta
+    tsp.greedy_solve() #Genera una solucion de ruta
     tsp.draw_with_solution() #dibujar la solucion
-    tsp.draw() #dibujar solo las ciudades
+    #tsp.draw() #dibujar solo las ciudades
