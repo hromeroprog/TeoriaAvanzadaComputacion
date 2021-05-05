@@ -56,6 +56,10 @@ class TSP:
     def solve(self):
         self.solution = list(self.problema.keys())
         random.shuffle(self.solution)
+        self.ordenar_solucion()
+        
+        
+        
     
     def draw(self):
         x = [coord[0] for coord in self.problema.values()]
@@ -75,6 +79,17 @@ class TSP:
         plt.xlim(min(x)-1, max(x) +1)
         plt.suptitle(f'{self.nombre} sin solucion', fontsize = 14)
     
+    def ordenar_solucion(self):
+        primero = None
+        while(primero != list(self.problema.keys())[0]):
+            primero = self.solution.pop(0)
+            self.solution.append(primero)
+            
+        self.solution = self.solution[:-1]
+        self.solution.insert(0,primero)
+        print(self.solution)
+        
+        
     def draw_with_solution(self):
         self.draw()
         for index in range(len(self.solution)):
@@ -85,7 +100,7 @@ class TSP:
             print(y_values)
             plt.plot(x_values, y_values, 'red')
         plt.suptitle(f'{self.nombre} con solucion', fontsize = 14)
-        plt.title(', '.join(map(str, self.solution)), fontsize = 10)
+        plt.title('Ruta: ' + ', '.join(map(str, self.solution + [self.solution[0]])), fontsize = 10)
             
         
         
