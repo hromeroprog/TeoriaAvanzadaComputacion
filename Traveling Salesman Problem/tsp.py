@@ -13,6 +13,7 @@ from tools import read_file
 import random
 import math
 import time
+import numpy as np
 
 
 class TSP:
@@ -121,7 +122,21 @@ class TSP:
         print(f'Solución greedy generada: {self.compute_dist()}m')
         return end - start
 
-    
+    #Función r_solve(self) -> float implementada por Hugo Romero
+    #Solucion con un algoritmo que se me ha ocurrido que podría
+    #funcionar bien como punto de partida, funciona muy bien 
+    #combinada con el 2-opt
+    def r_solve(self):
+        start = time.time()
+        x = [coord[0] for coord in self.problema.values()]
+        y = [coord[1] for coord in self.problema.values()]
+
+        center = [np.mean(x), np.mean(y)]
+        self.solution.sort(key=lambda point: angle(self.problema[point], center))
+        end = time.time()
+        self.ordenar_solucion()
+        print(f'Solucion r: {self.compute_dist()} m')
+        return end - start
     #Función opt2(self) -> float implementada por Hugo Romero
     #La funcion adapta el pseudocodigo de la pagina
     #de wikipedia del 2-opt

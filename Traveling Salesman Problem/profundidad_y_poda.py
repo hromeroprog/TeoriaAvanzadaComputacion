@@ -6,6 +6,8 @@ Created on Thu May  6 12:54:23 2021
 """
 from TSP import TSP
 import time
+from numba import jit,njit
+import numpy as np
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
 def copyToFinal(curr_path, final_path, N):
@@ -13,9 +15,14 @@ def copyToFinal(curr_path, final_path, N):
     final_path[N] = curr_path[0]
 
 #Función g(TSP, list, int, int) implementada por Hugo Romero
-#funcion heuristica, modificar para podar las ramas del algoritmo en profundidad
-def g(): 
+#funcion heuristica, modificar cuando se desee para podar las ramas
+#esta heuristica reduce unas 6 veces el tiempo de ejecucion
+@njit
+def g(tsp: TSP, visited: list, level: int, adding_node: int): 
     bound = 0
+    for i in range(tsp.dimension):
+        if not visited[i] and i != adding_node:
+            bound = bound + np.min([coste for coste in tsp.graph[i] if coste > 0])
     return bound
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
@@ -30,7 +37,7 @@ def TSPRec(tsp: TSP,curr_weight, level, curr_path, visited, final_path, final_re
     for i in range(tsp.dimension): 
         if (tsp.graph[curr_path[level-1]][i] != 0 and visited[i] == False):
             curr_weight += tsp.graph[curr_path[level - 1]][i]
-            curr_bound = g() #Aqui se hace la llamada a la heuristica
+            curr_bound = g(tsp, visited, level, i) #Aqui se hace la llamada a la heuristica
             if curr_bound + curr_weight < final_res[0]:
                 curr_path[level] = i
                 visited[i] = True
