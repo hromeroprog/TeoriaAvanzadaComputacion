@@ -30,7 +30,7 @@ if __name__ == '__main__':
     for _ in range(iterations):
         
         tsp.obtener_random(12)
-        time+= branchAndBound(tsp)
+        time = time + branchAndBound(tsp)
         tsp.draw_with_solution()
     
     print(f'Media tiempo: {time/iterations}')

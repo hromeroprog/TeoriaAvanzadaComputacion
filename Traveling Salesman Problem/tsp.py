@@ -31,8 +31,8 @@ class TSP:
     #Función generate_graph(self) implementada por Hugo Romero
     #Calcula y almacena en graph las aristas (carreteras) entre ciudades (todas, dado que es un nodo completo)
     def generate_graph(self):
-        self.graph = [[self.distance(city1, city2) for city2 in list(self.problema.keys())] for city1 in
-                      list(self.problema.keys())]
+        self.graph = np.array([[self.distance(city1, city2) for city2 in list(self.problema.keys())] for city1 in
+                      list(self.problema.keys())])
     
     #Función obtener_desde_archivo_tsp(self, string) implementada por Hugo Romero
     # Genera un escenario a partir de un archivo .tsp, debe estar en la carpeta TSP_interesantes
