@@ -9,7 +9,7 @@ y se recomienda hacer modificaciones propias en caso de que el analisis genere p
 """
 
 from matplotlib import pyplot as plt
-from tools import read_file
+from tools import read_file,angle,save_string
 import random
 import math
 import time
@@ -38,9 +38,9 @@ class TSP:
     # Genera un escenario a partir de un archivo .tsp, debe estar en la carpeta TSP_interesantes
     # Se espera que sea un archivo tsp de vertices (coordenadas), no de aristas.
     def obtener_desde_archivo_tsp(self, tsp_name):
-        tsp_file = f"./TSP_interesantes/{tsp_name}"
+        tsp_file = tsp_name
         lines = read_file(tsp_file)
-        self.nombre = [line.partition('NAME:')[2] for line in lines if 'NAME: ' in line][0].strip()
+        self.nombre = [line.replace('NAME: ', '') for line in lines if 'NAME: ' in line][0].strip()
         self.filename = tsp_name
         self.dimension = int([line.partition('DIMENSION:')[2] for line in lines if 'DIMENSION: ' in line][0])
         index_for_search = [index for index, line in enumerate(lines) if 'NODE_COORD_SECTION' in line][0] + 1
@@ -61,7 +61,8 @@ class TSP:
         if '.tsp' not in self.filename:
             print(f'El escenario {self.nombre} no fue generado apartir de un archivo .tsp')
             return
-        solution_file = "./TSP_interesantes/" + self.filename.replace('.tsp', '') + ".opt.tour"
+        solution_file =  self.filename.replace('.tsp', '') + ".opt.tour"
+        
         lines = read_file(solution_file)
         index_for_search = [index for index, line in enumerate(lines) if 'TOUR_SECTION' in line][0] + 1
 
@@ -78,7 +79,7 @@ class TSP:
     #Función obtener_random(self, int) implementada por Hugo Romero
     # Genera un escenario aleatorio de {dimension} CIUDADES
     def obtener_random(self, dimension):
-        self.nombre = f'Aleatorio {dimension} dimensiones'
+        self.nombre = f'Aleatorio{int(time.time())}_{dimension}.tsp'
         self.dimension = dimension
         self.problema = {}
         for i in range(1, dimension + 1):
@@ -352,3 +353,26 @@ class TSP:
         result = f'Problema {self.nombre}\n\t-{self.dimension} ciudades'
         result += f"\n\t-Actual solucion:\t{', '.join(map(str, self.solution))}"
         return result
+    
+    
+    def save_solucion(self):
+        output = "NAME: " + self.nombre.replace('.tsp', '') + ".opt.tour\n"
+        output += f"COMMENT: Optimal solution for {self.nombre.replace('.tsp', '')} ({self.compute_dist()})\n"
+        output += "TYPE: TOUR\n"
+        output += f"DIMENSION: {self.dimension}\n"
+        output += "TOUR_SECTION\n"
+        output += ' '.join(list(map(lambda x: str(int(x)),self.solution)))
+        output += "\n-1\nEOF\n"
+        save_string(self.nombre.replace('.tsp', '')+".opt.tour", output)
+    
+    def save_scenario(self):
+        output = "NAME: " + self.nombre + "\n"
+        output += "COMMENT: Randomly generated scenario\n"
+        output += "TYPE: TSP\n"
+        output += "DIMENSION: " + str(self.dimension) + "\n"
+        output += "EDGE_WEIGHT_TYPE: ATT\n"
+        output += "NODE_COORD_SECTION\n"
+        for node in self.problema:
+            output += str(node) + " " + str(self.problema[node][0]) + " " + str(self.problema[node][1]) + "\n"
+        save_string(self.nombre, output)
+    

@@ -30,9 +30,10 @@ def g(graph: np.array, visited: np.array, level: int, adding_node: int):
                     minim = graph[i][j]
             if bound != np.inf:
                 bound = bound + minim
-    return 0
+    return bound
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
+
 @njit
 def TSPRec(graph: np.array, curr_weight: int,level: int, curr_path: np.array, visited: np.array, final_path: np.array, final_res: np.array):
     if level == graph.shape[0]:
@@ -69,8 +70,8 @@ def branchAndBound(tsp):
     curr_path[0] = 0
     final_res = np.array([np.inf])
     TSPRec(tsp.graph, 0, 1, curr_path, visited, final_path, final_res)
-    print(final_path)
     tsp.solution = list(map(lambda x: x+1, final_path.tolist()[:-1]))
+    print(tsp.solution)
     end = time.time()
     print(f'Solución profundidad y poda generada: {tsp.compute_dist()}m. {end-start} segundos.')
     return(end-start)

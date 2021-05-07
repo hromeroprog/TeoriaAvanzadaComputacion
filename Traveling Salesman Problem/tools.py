@@ -20,3 +20,8 @@ def angle(point, center):
     vector_1 = [point[0]-center[0], point[1]-center[1]]
     angle = math.atan2(vector_1[1], vector_1[0]) * 180 / math.pi
     return round(angle,4)
+
+def save_string(filename, output):
+    with open("./TSP_generados/" + filename, 'w') as file:
+        file.write(output)
+    return
