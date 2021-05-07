@@ -1,0 +1,8 @@
+NAME: Aleatorio1620390840_4.opt.tour
+COMMENT: Optimal solution for Aleatorio1620390840_4 (75.1978392791395)
+TYPE: TOUR
+DIMENSION: 4
+TOUR_SECTION
+1 2 4 3
+-1
+EOF

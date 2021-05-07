@@ -13,9 +13,20 @@ from time import sleep
 #Sirve como base para que haya un primer vistazo a como se trabajaría
 if __name__ == '__main__':
     tsp = TSP() #Crear el objeto
-    tsp.obtener_desde_archivo_tsp('./TSP_generados/Aleatorio1620397769_18.tsp')
-    tsp.aplicar_mejor_solucion_desde_archivo()
-    tsp.draw_with_solution()
+    
+    min_dim = 4
+    max_dim = 19
+    scenarios_per_dim = 20
+    tiempos = {}
+    for dim in range(min_dim, max_dim):
+        tiempos[dim] = []
+        for i in range(scenarios_per_dim):
+            sleep(1)
+            tsp.obtener_random(dim)
+            time = branchAndBound(tsp)
+            tiempos[dim].append(time)
+            tsp.save_scenario()
+            tsp.save_solucion()
 
     
     # No se recomienda probar el backtracking con el archivo .tsp,
