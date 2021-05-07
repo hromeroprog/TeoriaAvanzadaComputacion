@@ -1,0 +1,499 @@
+Solución profundidad y poda generada: 85.96281512119307m. 0.0 segundos.
+[1.0, 3.0, 5.0, 2.0, 4.0]
+Solución profundidad y poda generada: 74.4689292218888m. 0.0 segundos.
+[1.0, 5.0, 4.0, 2.0, 3.0]
+Solución profundidad y poda generada: 115.55967337882234m. 0.0 segundos.
+[1.0, 4.0, 3.0, 2.0, 5.0]
+Solución profundidad y poda generada: 124.84768075538032m. 0.0 segundos.
+[1.0, 2.0, 4.0, 5.0, 3.0]
+Solución profundidad y poda generada: 98.66887335508241m. 0.0 segundos.
+[1.0, 4.0, 3.0, 2.0, 5.0]
+Solución profundidad y poda generada: 90.19447931684351m. 0.0 segundos.
+[1.0, 3.0, 6.0, 2.0, 5.0, 4.0]
+Solución profundidad y poda generada: 115.53493012903161m. 0.0 segundos.
+[1.0, 6.0, 5.0, 3.0, 4.0, 2.0]
+Solución profundidad y poda generada: 119.38941426081746m. 0.0 segundos.
+[1.0, 6.0, 2.0, 3.0, 5.0, 4.0]
+Solución profundidad y poda generada: 104.80831617574523m. 0.0 segundos.
+[1.0, 4.0, 6.0, 3.0, 5.0, 2.0]
+Solución profundidad y poda generada: 110.59904742024202m. 0.0 segundos.
+[1.0, 3.0, 2.0, 6.0, 4.0, 5.0]
+Solución profundidad y poda generada: 59.553670333609624m. 0.0 segundos.
+[1.0, 6.0, 5.0, 4.0, 2.0, 3.0]
+Solución profundidad y poda generada: 111.7354015392653m. 0.0 segundos.
+[1.0, 5.0, 2.0, 4.0, 3.0, 6.0]
+Solución profundidad y poda generada: 129.94466110255405m. 0.0 segundos.
+[1.0, 6.0, 4.0, 2.0, 3.0, 5.0]
+Solución profundidad y poda generada: 104.49017733977037m. 0.0 segundos.
+[1.0, 5.0, 2.0, 4.0, 6.0, 3.0]
+Solución profundidad y poda generada: 105.25688768828655m. 0.0 segundos.
+[1.0, 5.0, 6.0, 3.0, 4.0, 2.0]
+Solución profundidad y poda generada: 99.67897849378404m. 0.0 segundos.
+[1.0, 2.0, 5.0, 6.0, 3.0, 4.0]
+Solución profundidad y poda generada: 78.71108932675445m. 0.0 segundos.
+[1.0, 3.0, 6.0, 2.0, 5.0, 4.0]
+Solución profundidad y poda generada: 114.73216737610294m. 0.0 segundos.
+[1.0, 3.0, 5.0, 4.0, 6.0, 2.0]
+Solución profundidad y poda generada: 138.8851660228792m. 0.0 segundos.
+[1.0, 2.0, 5.0, 6.0, 4.0, 3.0]
+Solución profundidad y poda generada: 109.38098344799796m. 0.0 segundos.
+[1.0, 6.0, 4.0, 2.0, 5.0, 3.0]
+Solución profundidad y poda generada: 125.71994357112462m. 0.0 segundos.
+[1.0, 6.0, 4.0, 3.0, 2.0, 5.0]
+Solución profundidad y poda generada: 137.36745808698146m. 0.0 segundos.
+[1.0, 3.0, 2.0, 6.0, 5.0, 4.0]
+Solución profundidad y poda generada: 133.4921526674605m. 0.0 segundos.
+[1.0, 2.0, 6.0, 5.0, 4.0, 3.0]
+Solución profundidad y poda generada: 127.14919094502741m. 0.0 segundos.
+[1.0, 3.0, 4.0, 2.0, 5.0, 6.0]
+Solución profundidad y poda generada: 124.28943551516215m. 0.0 segundos.
+[1.0, 3.0, 2.0, 6.0, 4.0, 5.0]
+Solución profundidad y poda generada: 137.27714535826232m. 0.0 segundos.
+[1.0, 6.0, 7.0, 3.0, 4.0, 5.0, 2.0]
+Solución profundidad y poda generada: 146.25044983133392m. 0.0009982585906982422 segundos.
+[1.0, 6.0, 7.0, 4.0, 5.0, 3.0, 2.0]
+Solución profundidad y poda generada: 123.69581659428935m. 0.0009911060333251953 segundos.
+[1.0, 7.0, 5.0, 2.0, 3.0, 4.0, 6.0]
+Solución profundidad y poda generada: 100.35737807735002m. 0.000965118408203125 segundos.
+[1.0, 5.0, 2.0, 7.0, 4.0, 3.0, 6.0]
+Solución profundidad y poda generada: 129.72481532974493m. 0.0008597373962402344 segundos.
+[1.0, 6.0, 3.0, 4.0, 2.0, 5.0, 7.0]
+Solución profundidad y poda generada: 153.53775204486718m. 0.001012563705444336 segundos.
+[1.0, 7.0, 5.0, 4.0, 6.0, 3.0, 2.0]
+Solución profundidad y poda generada: 103.79712971033989m. 0.0 segundos.
+[1.0, 2.0, 3.0, 7.0, 5.0, 4.0, 6.0]
+Solución profundidad y poda generada: 139.15996805421577m. 0.0 segundos.
+[1.0, 6.0, 4.0, 5.0, 2.0, 3.0, 7.0]
+Solución profundidad y poda generada: 135.43776776224334m. 0.0 segundos.
+[1.0, 4.0, 7.0, 2.0, 6.0, 5.0, 3.0]
+Solución profundidad y poda generada: 121.83032295620582m. 0.0 segundos.
+[1.0, 2.0, 7.0, 3.0, 5.0, 4.0, 6.0]
+Solución profundidad y poda generada: 134.95386190174048m. 0.0008597373962402344 segundos.
+[1.0, 5.0, 7.0, 2.0, 3.0, 4.0, 6.0]
+Solución profundidad y poda generada: 112.54397112398514m. 0.0010328292846679688 segundos.
+[1.0, 5.0, 3.0, 7.0, 4.0, 2.0, 6.0]
+Solución profundidad y poda generada: 99.65210364944645m. 0.0008752346038818359 segundos.
+[1.0, 6.0, 4.0, 3.0, 5.0, 2.0, 7.0]
+Solución profundidad y poda generada: 125.29721055004283m. 0.0 segundos.
+[1.0, 6.0, 3.0, 4.0, 5.0, 2.0, 7.0]
+Solución profundidad y poda generada: 92.77488893677098m. 0.0 segundos.
+[1.0, 7.0, 3.0, 6.0, 4.0, 2.0, 5.0]
+Solución profundidad y poda generada: 145.82467837168934m. 0.0 segundos.
+[1.0, 3.0, 7.0, 2.0, 5.0, 4.0, 6.0]
+Solución profundidad y poda generada: 128.35786079168648m. 0.0008542537689208984 segundos.
+[1.0, 5.0, 3.0, 4.0, 2.0, 6.0, 7.0]
+Solución profundidad y poda generada: 139.92787248988213m. 0.0008840560913085938 segundos.
+[1.0, 4.0, 7.0, 2.0, 3.0, 6.0, 5.0]
+Solución profundidad y poda generada: 111.78395718608148m. 0.0 segundos.
+[1.0, 6.0, 2.0, 3.0, 7.0, 4.0, 5.0]
+Solución profundidad y poda generada: 139.34713671485426m. 0.0010328292846679688 segundos.
+[1.0, 3.0, 2.0, 7.0, 5.0, 6.0, 4.0]
+Solución profundidad y poda generada: 115.10525026622338m. 0.0 segundos.
+[1.0, 5.0, 6.0, 2.0, 3.0, 4.0, 8.0, 7.0]
+Solución profundidad y poda generada: 155.52751048687375m. 0.0038824081420898438 segundos.
+[1.0, 3.0, 7.0, 8.0, 6.0, 2.0, 5.0, 4.0]
+Solución profundidad y poda generada: 99.20528404578965m. 0.002991199493408203 segundos.
+[1.0, 3.0, 2.0, 8.0, 6.0, 5.0, 7.0, 4.0]
+Solución profundidad y poda generada: 140.43551711510224m. 0.0018935203552246094 segundos.
+[1.0, 2.0, 7.0, 6.0, 5.0, 3.0, 8.0, 4.0]
+Solución profundidad y poda generada: 156.86500450050872m. 0.0009999275207519531 segundos.
+[1.0, 4.0, 2.0, 8.0, 5.0, 7.0, 6.0, 3.0]
+Solución profundidad y poda generada: 116.3928222763227m. 0.0028536319732666016 segundos.
+[1.0, 5.0, 8.0, 2.0, 3.0, 6.0, 7.0, 4.0]
+Solución profundidad y poda generada: 129.76767398335897m. 0.0019669532775878906 segundos.
+[1.0, 6.0, 8.0, 2.0, 5.0, 4.0, 3.0, 7.0]
+Solución profundidad y poda generada: 156.63102776658474m. 0.002889871597290039 segundos.
+[1.0, 3.0, 5.0, 8.0, 2.0, 4.0, 6.0, 7.0]
+Solución profundidad y poda generada: 107.03147612136935m. 0.004024982452392578 segundos.
+[1.0, 3.0, 6.0, 7.0, 8.0, 2.0, 5.0, 4.0]
+Solución profundidad y poda generada: 155.03919351305646m. 0.003034830093383789 segundos.
+[1.0, 2.0, 8.0, 7.0, 5.0, 6.0, 3.0, 4.0]
+Solución profundidad y poda generada: 154.31527829777772m. 0.001994609832763672 segundos.
+[1.0, 5.0, 3.0, 7.0, 6.0, 4.0, 8.0, 2.0]
+Solución profundidad y poda generada: 131.79735526651157m. 0.0019986629486083984 segundos.
+[1.0, 8.0, 5.0, 7.0, 2.0, 3.0, 4.0, 6.0]
+Solución profundidad y poda generada: 126.2006997741949m. 0.0028891563415527344 segundos.
+[1.0, 6.0, 8.0, 3.0, 2.0, 5.0, 4.0, 7.0]
+Solución profundidad y poda generada: 143.80060606953964m. 0.00099945068359375 segundos.
+[1.0, 3.0, 8.0, 7.0, 6.0, 4.0, 5.0, 2.0]
+Solución profundidad y poda generada: 102.31439520291313m. 0.0019991397857666016 segundos.
+[1.0, 4.0, 5.0, 2.0, 6.0, 3.0, 7.0, 8.0]
+Solución profundidad y poda generada: 145.5405169401198m. 0.002934694290161133 segundos.
+[1.0, 5.0, 7.0, 2.0, 4.0, 8.0, 3.0, 6.0]
+Solución profundidad y poda generada: 123.13127515378922m. 0.0030133724212646484 segundos.
+[1.0, 2.0, 8.0, 6.0, 4.0, 7.0, 5.0, 3.0]
+Solución profundidad y poda generada: 128.22938412865494m. 0.0018570423126220703 segundos.
+[1.0, 2.0, 4.0, 5.0, 8.0, 7.0, 6.0, 3.0]
+Solución profundidad y poda generada: 147.67408265293034m. 0.0029866695404052734 segundos.
+[1.0, 2.0, 3.0, 5.0, 4.0, 8.0, 7.0, 6.0]
+Solución profundidad y poda generada: 143.89848029931468m. 0.0009996891021728516 segundos.
+[1.0, 3.0, 6.0, 7.0, 4.0, 5.0, 8.0, 2.0]
+Solución profundidad y poda generada: 125.87311360545213m. 0.002973318099975586 segundos.
+[1.0, 3.0, 2.0, 8.0, 9.0, 4.0, 6.0, 7.0, 5.0]
+Solución profundidad y poda generada: 149.0641510226423m. 0.01192164421081543 segundos.
+[1.0, 4.0, 3.0, 5.0, 7.0, 2.0, 6.0, 9.0, 8.0]
+Solución profundidad y poda generada: 163.37147741768658m. 0.016118764877319336 segundos.
+[1.0, 6.0, 9.0, 4.0, 5.0, 3.0, 7.0, 2.0, 8.0]
+Solución profundidad y poda generada: 120.48238597746045m. 0.006013154983520508 segundos.
+[1.0, 7.0, 5.0, 4.0, 9.0, 2.0, 3.0, 8.0, 6.0]
+Solución profundidad y poda generada: 150.2524821750065m. 0.012987375259399414 segundos.
+[1.0, 5.0, 7.0, 8.0, 4.0, 6.0, 9.0, 2.0, 3.0]
+Solución profundidad y poda generada: 152.6491321937243m. 0.010874271392822266 segundos.
+[1.0, 5.0, 9.0, 6.0, 7.0, 8.0, 4.0, 2.0, 3.0]
+Solución profundidad y poda generada: 104.67843623852673m. 0.0060160160064697266 segundos.
+[1.0, 3.0, 2.0, 5.0, 7.0, 9.0, 8.0, 6.0, 4.0]
+Solución profundidad y poda generada: 133.9249309395301m. 0.0069828033447265625 segundos.
+[1.0, 7.0, 3.0, 4.0, 2.0, 9.0, 8.0, 6.0, 5.0]
+Solución profundidad y poda generada: 148.74066206521448m. 0.007845878601074219 segundos.
+[1.0, 8.0, 9.0, 2.0, 6.0, 4.0, 3.0, 5.0, 7.0]
+Solución profundidad y poda generada: 135.24068988407697m. 0.007016658782958984 segundos.
+[1.0, 2.0, 5.0, 9.0, 3.0, 8.0, 6.0, 7.0, 4.0]
+Solución profundidad y poda generada: 147.10702539792644m. 0.00801396369934082 segundos.
+[1.0, 6.0, 5.0, 7.0, 4.0, 3.0, 9.0, 2.0, 8.0]
+Solución profundidad y poda generada: 157.45025298615843m. 0.006888151168823242 segundos.
+[1.0, 5.0, 9.0, 2.0, 7.0, 4.0, 8.0, 6.0, 3.0]
+Solución profundidad y poda generada: 144.91877364869123m. 0.011867284774780273 segundos.
+[1.0, 8.0, 4.0, 2.0, 6.0, 5.0, 3.0, 7.0, 9.0]
+Solución profundidad y poda generada: 118.71527843934044m. 0.009836912155151367 segundos.
+[1.0, 3.0, 7.0, 8.0, 2.0, 5.0, 4.0, 6.0, 9.0]
+Solución profundidad y poda generada: 127.30609394353974m. 0.006983280181884766 segundos.
+[1.0, 2.0, 9.0, 8.0, 5.0, 7.0, 6.0, 3.0, 4.0]
+Solución profundidad y poda generada: 139.4690752131468m. 0.01386404037475586 segundos.
+[1.0, 3.0, 5.0, 7.0, 4.0, 9.0, 6.0, 8.0, 2.0]
+Solución profundidad y poda generada: 110.39529903118208m. 0.008008241653442383 segundos.
+[1.0, 7.0, 8.0, 5.0, 6.0, 4.0, 2.0, 9.0, 3.0]
+Solución profundidad y poda generada: 121.57806756327203m. 0.009870290756225586 segundos.
+[1.0, 2.0, 4.0, 6.0, 3.0, 8.0, 7.0, 9.0, 5.0]
+Solución profundidad y poda generada: 101.29885491457209m. 0.003890514373779297 segundos.
+[1.0, 7.0, 8.0, 6.0, 2.0, 3.0, 9.0, 5.0, 4.0]
+Solución profundidad y poda generada: 148.89818414619498m. 0.006850004196166992 segundos.
+[1.0, 6.0, 7.0, 2.0, 9.0, 3.0, 4.0, 5.0, 8.0]
+Solución profundidad y poda generada: 147.159016010125m. 0.01086735725402832 segundos.
+[1.0, 5.0, 2.0, 10.0, 8.0, 7.0, 6.0, 3.0, 4.0, 9.0]
+Solución profundidad y poda generada: 141.40232489025908m. 0.010864496231079102 segundos.
+[1.0, 4.0, 9.0, 6.0, 7.0, 3.0, 2.0, 8.0, 5.0, 10.0]
+Solución profundidad y poda generada: 141.3209233762966m. 0.09364199638366699 segundos.
+[1.0, 2.0, 10.0, 6.0, 7.0, 5.0, 8.0, 4.0, 9.0, 3.0]
+Solución profundidad y poda generada: 155.2308633186517m. 0.023797273635864258 segundos.
+[1.0, 8.0, 2.0, 9.0, 4.0, 6.0, 7.0, 3.0, 5.0, 10.0]
+Solución profundidad y poda generada: 151.4103514049047m. 0.017984390258789062 segundos.
+[1.0, 10.0, 8.0, 6.0, 7.0, 9.0, 2.0, 4.0, 5.0, 3.0]
+Solución profundidad y poda generada: 122.96843355634684m. 0.009688138961791992 segundos.
+[1.0, 5.0, 2.0, 6.0, 8.0, 4.0, 9.0, 3.0, 7.0, 10.0]
+Solución profundidad y poda generada: 118.88625621150828m. 0.012836456298828125 segundos.
+[1.0, 5.0, 8.0, 6.0, 10.0, 4.0, 3.0, 2.0, 7.0, 9.0]
+Solución profundidad y poda generada: 114.12316398348972m. 0.013870954513549805 segundos.
+[1.0, 3.0, 8.0, 5.0, 6.0, 10.0, 9.0, 7.0, 4.0, 2.0]
+Solución profundidad y poda generada: 147.62099324467798m. 0.00997614860534668 segundos.
+[1.0, 2.0, 5.0, 9.0, 4.0, 6.0, 8.0, 7.0, 10.0, 3.0]
+Solución profundidad y poda generada: 158.86115806338086m. 0.061723947525024414 segundos.
+[1.0, 6.0, 4.0, 2.0, 5.0, 7.0, 3.0, 10.0, 8.0, 9.0]
+Solución profundidad y poda generada: 148.4565329905183m. 0.06159043312072754 segundos.
+[1.0, 6.0, 5.0, 7.0, 4.0, 10.0, 9.0, 2.0, 3.0, 8.0]
+Solución profundidad y poda generada: 154.66203960617597m. 0.03884267807006836 segundos.
+[1.0, 10.0, 2.0, 8.0, 3.0, 6.0, 5.0, 9.0, 7.0, 4.0]
+Solución profundidad y poda generada: 177.55708383238175m. 0.024843931198120117 segundos.
+[1.0, 9.0, 8.0, 5.0, 2.0, 3.0, 10.0, 7.0, 4.0, 6.0]
+Solución profundidad y poda generada: 148.97932487405348m. 0.03195071220397949 segundos.
+[1.0, 7.0, 9.0, 5.0, 6.0, 8.0, 4.0, 3.0, 10.0, 2.0]
+Solución profundidad y poda generada: 120.97980600383319m. 0.024955034255981445 segundos.
+[1.0, 6.0, 8.0, 3.0, 4.0, 7.0, 5.0, 2.0, 9.0, 10.0]
+Solución profundidad y poda generada: 148.35521062344074m. 0.011969327926635742 segundos.
+[1.0, 8.0, 4.0, 2.0, 3.0, 7.0, 5.0, 9.0, 6.0, 10.0]
+Solución profundidad y poda generada: 153.02638412224775m. 0.023965835571289062 segundos.
+[1.0, 6.0, 4.0, 2.0, 3.0, 5.0, 9.0, 7.0, 8.0, 10.0]
+Solución profundidad y poda generada: 132.67794145449122m. 0.03480362892150879 segundos.
+[1.0, 4.0, 8.0, 5.0, 7.0, 3.0, 2.0, 6.0, 10.0, 9.0]
+Solución profundidad y poda generada: 125.20276810683578m. 0.02596569061279297 segundos.
+[1.0, 5.0, 8.0, 6.0, 3.0, 10.0, 4.0, 2.0, 7.0, 9.0]
+Solución profundidad y poda generada: 146.71597469745382m. 0.01928567886352539 segundos.
+[1.0, 6.0, 3.0, 8.0, 10.0, 7.0, 4.0, 2.0, 5.0, 9.0]
+Solución profundidad y poda generada: 131.68073733849621m. 0.02792668342590332 segundos.
+[1.0, 5.0, 7.0, 6.0, 9.0, 10.0, 11.0, 4.0, 8.0, 2.0, 3.0]
+Solución profundidad y poda generada: 178.03107402023358m. 0.08919000625610352 segundos.
+[1.0, 11.0, 6.0, 3.0, 9.0, 5.0, 2.0, 8.0, 7.0, 10.0, 4.0]
+Solución profundidad y poda generada: 146.58784190687007m. 0.08776473999023438 segundos.
+[1.0, 6.0, 7.0, 9.0, 5.0, 8.0, 3.0, 11.0, 10.0, 4.0, 2.0]
+Solución profundidad y poda generada: 126.43799185858899m. 0.10375308990478516 segundos.
+[1.0, 7.0, 3.0, 5.0, 6.0, 11.0, 2.0, 8.0, 9.0, 4.0, 10.0]
+Solución profundidad y poda generada: 153.6133561060271m. 0.20292186737060547 segundos.
+[1.0, 9.0, 8.0, 5.0, 6.0, 2.0, 10.0, 3.0, 4.0, 11.0, 7.0]
+Solución profundidad y poda generada: 140.18857754348994m. 0.13924551010131836 segundos.
+[1.0, 7.0, 5.0, 11.0, 9.0, 4.0, 8.0, 10.0, 6.0, 2.0, 3.0]
+Solución profundidad y poda generada: 160.40166553274642m. 0.04645824432373047 segundos.
+[1.0, 5.0, 10.0, 9.0, 6.0, 7.0, 11.0, 2.0, 8.0, 3.0, 4.0]
+Solución profundidad y poda generada: 159.7130283910931m. 0.0957794189453125 segundos.
+[1.0, 11.0, 3.0, 4.0, 7.0, 9.0, 2.0, 6.0, 5.0, 8.0, 10.0]
+Solución profundidad y poda generada: 155.1771019203027m. 0.12968015670776367 segundos.
+[1.0, 9.0, 8.0, 10.0, 3.0, 7.0, 6.0, 11.0, 2.0, 4.0, 5.0]
+Solución profundidad y poda generada: 122.51220712575352m. 0.11067080497741699 segundos.
+[1.0, 3.0, 2.0, 11.0, 5.0, 10.0, 7.0, 8.0, 6.0, 9.0, 4.0]
+Solución profundidad y poda generada: 141.93093444192672m. 0.0670015811920166 segundos.
+[1.0, 3.0, 4.0, 5.0, 7.0, 8.0, 9.0, 10.0, 11.0, 6.0, 2.0]
+Solución profundidad y poda generada: 140.2979502020327m. 0.07981562614440918 segundos.
+[1.0, 2.0, 4.0, 11.0, 7.0, 10.0, 9.0, 6.0, 5.0, 3.0, 8.0]
+Solución profundidad y poda generada: 146.13197185276775m. 0.10037612915039062 segundos.
+[1.0, 3.0, 8.0, 7.0, 9.0, 11.0, 4.0, 5.0, 2.0, 10.0, 6.0]
+Solución profundidad y poda generada: 155.62032051470214m. 0.4965169429779053 segundos.
+[1.0, 8.0, 10.0, 6.0, 2.0, 9.0, 4.0, 7.0, 3.0, 5.0, 11.0]
+Solución profundidad y poda generada: 135.481127256036m. 0.03481149673461914 segundos.
+[1.0, 7.0, 8.0, 4.0, 10.0, 2.0, 5.0, 3.0, 6.0, 9.0, 11.0]
+Solución profundidad y poda generada: 159.81703273200446m. 0.23089075088500977 segundos.
+[1.0, 7.0, 10.0, 9.0, 4.0, 8.0, 11.0, 3.0, 2.0, 5.0, 6.0]
+Solución profundidad y poda generada: 148.80302540086117m. 0.19105005264282227 segundos.
+[1.0, 6.0, 9.0, 3.0, 8.0, 5.0, 4.0, 7.0, 10.0, 11.0, 2.0]
+Solución profundidad y poda generada: 118.41968863515112m. 0.03196096420288086 segundos.
+[1.0, 6.0, 8.0, 4.0, 9.0, 7.0, 2.0, 3.0, 11.0, 5.0, 10.0]
+Solución profundidad y poda generada: 155.14182859619268m. 0.10176491737365723 segundos.
+[1.0, 3.0, 7.0, 8.0, 6.0, 2.0, 4.0, 10.0, 5.0, 9.0, 11.0]
+Solución profundidad y poda generada: 124.95436589821537m. 0.09464383125305176 segundos.
+[1.0, 9.0, 2.0, 6.0, 4.0, 8.0, 11.0, 7.0, 3.0, 5.0, 10.0]
+Solución profundidad y poda generada: 150.27181046309613m. 0.07682371139526367 segundos.
+[1.0, 3.0, 12.0, 11.0, 8.0, 7.0, 2.0, 6.0, 10.0, 5.0, 9.0, 4.0]
+Solución profundidad y poda generada: 151.3787539826732m. 0.3218517303466797 segundos.
+[1.0, 4.0, 12.0, 7.0, 5.0, 10.0, 11.0, 2.0, 9.0, 8.0, 3.0, 6.0]
+Solución profundidad y poda generada: 139.00358183518472m. 0.1685166358947754 segundos.
+[1.0, 2.0, 5.0, 12.0, 9.0, 7.0, 10.0, 11.0, 8.0, 3.0, 6.0, 4.0]
+Solución profundidad y poda generada: 139.41259868934478m. 0.8721230030059814 segundos.
+[1.0, 9.0, 12.0, 6.0, 8.0, 2.0, 11.0, 3.0, 4.0, 5.0, 7.0, 10.0]
+Solución profundidad y poda generada: 184.91235769119226m. 0.45534181594848633 segundos.
+[1.0, 10.0, 2.0, 3.0, 8.0, 11.0, 9.0, 5.0, 7.0, 6.0, 12.0, 4.0]
+Solución profundidad y poda generada: 149.0727005693764m. 0.28983211517333984 segundos.
+[1.0, 9.0, 12.0, 6.0, 7.0, 10.0, 3.0, 11.0, 4.0, 2.0, 8.0, 5.0]
+Solución profundidad y poda generada: 145.99597868141623m. 0.9396271705627441 segundos.
+[1.0, 9.0, 4.0, 5.0, 7.0, 2.0, 10.0, 6.0, 11.0, 3.0, 12.0, 8.0]
+Solución profundidad y poda generada: 139.38987064097375m. 0.6455960273742676 segundos.
+[1.0, 8.0, 6.0, 10.0, 2.0, 5.0, 3.0, 7.0, 11.0, 4.0, 9.0, 12.0]
+Solución profundidad y poda generada: 161.22687505800266m. 0.765045166015625 segundos.
+[1.0, 5.0, 9.0, 7.0, 2.0, 12.0, 8.0, 11.0, 10.0, 3.0, 4.0, 6.0]
+Solución profundidad y poda generada: 163.7099702520386m. 0.36780500411987305 segundos.
+[1.0, 3.0, 5.0, 8.0, 7.0, 6.0, 10.0, 2.0, 11.0, 9.0, 4.0, 12.0]
+Solución profundidad y poda generada: 178.39948994390312m. 0.38814258575439453 segundos.
+[1.0, 5.0, 10.0, 12.0, 2.0, 8.0, 11.0, 9.0, 6.0, 7.0, 3.0, 4.0]
+Solución profundidad y poda generada: 150.7492886115819m. 1.127441167831421 segundos.
+[1.0, 4.0, 2.0, 5.0, 7.0, 9.0, 10.0, 12.0, 8.0, 11.0, 3.0, 6.0]
+Solución profundidad y poda generada: 144.23354624738508m. 1.2814991474151611 segundos.
+[1.0, 5.0, 2.0, 9.0, 7.0, 12.0, 11.0, 4.0, 10.0, 8.0, 3.0, 6.0]
+Solución profundidad y poda generada: 159.35828259078016m. 0.39719438552856445 segundos.
+[1.0, 2.0, 8.0, 6.0, 10.0, 9.0, 12.0, 7.0, 11.0, 5.0, 3.0, 4.0]
+Solución profundidad y poda generada: 111.4573844272724m. 0.9132671356201172 segundos.
+[1.0, 3.0, 2.0, 10.0, 9.0, 7.0, 6.0, 4.0, 5.0, 11.0, 8.0, 12.0]
+Solución profundidad y poda generada: 163.02839066302596m. 0.40816235542297363 segundos.
+[1.0, 10.0, 2.0, 8.0, 7.0, 9.0, 5.0, 3.0, 6.0, 4.0, 11.0, 12.0]
+Solución profundidad y poda generada: 130.86870937503318m. 0.42372775077819824 segundos.
+[1.0, 5.0, 9.0, 8.0, 10.0, 11.0, 12.0, 3.0, 7.0, 4.0, 6.0, 2.0]
+Solución profundidad y poda generada: 179.72300486621862m. 0.2965846061706543 segundos.
+[1.0, 6.0, 2.0, 10.0, 3.0, 8.0, 7.0, 5.0, 4.0, 12.0, 9.0, 11.0]
+Solución profundidad y poda generada: 159.8987249064108m. 0.6999003887176514 segundos.
+[1.0, 10.0, 9.0, 7.0, 6.0, 2.0, 8.0, 4.0, 3.0, 5.0, 12.0, 11.0]
+Solución profundidad y poda generada: 165.08108689995225m. 0.7035927772521973 segundos.
+[1.0, 7.0, 12.0, 6.0, 3.0, 10.0, 5.0, 4.0, 2.0, 9.0, 11.0, 8.0]
+Solución profundidad y poda generada: 161.6922212818307m. 0.3311142921447754 segundos.
+[1.0, 8.0, 12.0, 9.0, 7.0, 3.0, 10.0, 11.0, 6.0, 5.0, 13.0, 4.0, 2.0]
+Solución profundidad y poda generada: 158.3413969043611m. 0.7303600311279297 segundos.
+[1.0, 7.0, 13.0, 6.0, 3.0, 5.0, 11.0, 10.0, 8.0, 12.0, 4.0, 2.0, 9.0]
+Solución profundidad y poda generada: 185.20757088213142m. 2.876922130584717 segundos.
+[1.0, 2.0, 12.0, 4.0, 5.0, 13.0, 3.0, 11.0, 10.0, 9.0, 6.0, 7.0, 8.0]
+Solución profundidad y poda generada: 155.35486782189372m. 1.2528884410858154 segundos.
+[1.0, 6.0, 10.0, 9.0, 12.0, 8.0, 7.0, 11.0, 3.0, 13.0, 4.0, 5.0, 2.0]
+Solución profundidad y poda generada: 159.1539691165814m. 2.1513140201568604 segundos.
+[1.0, 2.0, 13.0, 10.0, 9.0, 8.0, 3.0, 4.0, 7.0, 11.0, 6.0, 12.0, 5.0]
+Solución profundidad y poda generada: 126.00115074595678m. 4.805251359939575 segundos.
+[1.0, 5.0, 2.0, 4.0, 13.0, 10.0, 12.0, 9.0, 3.0, 11.0, 7.0, 6.0, 8.0]
+Solución profundidad y poda generada: 157.82384251050775m. 1.7687585353851318 segundos.
+[1.0, 13.0, 2.0, 10.0, 12.0, 7.0, 8.0, 9.0, 11.0, 4.0, 6.0, 5.0, 3.0]
+Solución profundidad y poda generada: 172.3343469508957m. 1.962050199508667 segundos.
+[1.0, 7.0, 11.0, 13.0, 6.0, 4.0, 3.0, 10.0, 5.0, 12.0, 9.0, 8.0, 2.0]
+Solución profundidad y poda generada: 162.18981244572737m. 1.7535090446472168 segundos.
+[1.0, 6.0, 7.0, 9.0, 10.0, 8.0, 3.0, 5.0, 4.0, 12.0, 11.0, 2.0, 13.0]
+Solución profundidad y poda generada: 167.0893539948147m. 2.770084857940674 segundos.
+[1.0, 10.0, 8.0, 9.0, 2.0, 4.0, 12.0, 7.0, 3.0, 13.0, 6.0, 11.0, 5.0]
+Solución profundidad y poda generada: 151.0272574724391m. 1.181966781616211 segundos.
+[1.0, 10.0, 12.0, 13.0, 2.0, 8.0, 9.0, 3.0, 11.0, 4.0, 5.0, 7.0, 6.0]
+Solución profundidad y poda generada: 163.55051751663873m. 1.4884355068206787 segundos.
+[1.0, 2.0, 7.0, 8.0, 13.0, 12.0, 6.0, 4.0, 10.0, 3.0, 9.0, 11.0, 5.0]
+Solución profundidad y poda generada: 146.97034263386607m. 0.9131345748901367 segundos.
+[1.0, 3.0, 12.0, 6.0, 4.0, 13.0, 8.0, 9.0, 2.0, 10.0, 5.0, 7.0, 11.0]
+Solución profundidad y poda generada: 150.86673950957723m. 5.47289252281189 segundos.
+[1.0, 5.0, 12.0, 7.0, 10.0, 13.0, 3.0, 11.0, 8.0, 9.0, 6.0, 4.0, 2.0]
+Solución profundidad y poda generada: 156.4651426667206m. 11.15842604637146 segundos.
+[1.0, 6.0, 13.0, 10.0, 2.0, 11.0, 8.0, 12.0, 5.0, 9.0, 4.0, 3.0, 7.0]
+Solución profundidad y poda generada: 186.49224431879807m. 1.5157604217529297 segundos.
+[1.0, 5.0, 8.0, 10.0, 2.0, 9.0, 3.0, 12.0, 4.0, 6.0, 11.0, 7.0, 13.0]
+Solución profundidad y poda generada: 138.03343319370617m. 1.0182464122772217 segundos.
+[1.0, 2.0, 7.0, 3.0, 9.0, 5.0, 12.0, 13.0, 4.0, 10.0, 11.0, 6.0, 8.0]
+Solución profundidad y poda generada: 188.46701608760256m. 10.332443237304688 segundos.
+[1.0, 11.0, 5.0, 13.0, 10.0, 7.0, 6.0, 4.0, 2.0, 9.0, 8.0, 12.0, 3.0]
+Solución profundidad y poda generada: 150.63003903112784m. 2.1354925632476807 segundos.
+[1.0, 10.0, 9.0, 3.0, 4.0, 6.0, 12.0, 2.0, 5.0, 7.0, 8.0, 11.0, 13.0]
+Solución profundidad y poda generada: 162.77899581455785m. 2.0699000358581543 segundos.
+[1.0, 8.0, 3.0, 7.0, 6.0, 11.0, 2.0, 5.0, 4.0, 13.0, 10.0, 9.0, 12.0]
+Solución profundidad y poda generada: 156.43112768295987m. 1.1851732730865479 segundos.
+[1.0, 4.0, 8.0, 11.0, 2.0, 7.0, 12.0, 5.0, 10.0, 14.0, 3.0, 13.0, 9.0, 6.0]
+Solución profundidad y poda generada: 169.50383957546887m. 2.364898443222046 segundos.
+[1.0, 12.0, 13.0, 2.0, 14.0, 10.0, 8.0, 11.0, 5.0, 4.0, 3.0, 9.0, 6.0, 7.0]
+Solución profundidad y poda generada: 182.81130633297124m. 2.692487955093384 segundos.
+[1.0, 2.0, 9.0, 4.0, 7.0, 5.0, 14.0, 8.0, 3.0, 6.0, 13.0, 12.0, 10.0, 11.0]
+Solución profundidad y poda generada: 185.23830555267452m. 7.108498811721802 segundos.
+[1.0, 8.0, 4.0, 3.0, 6.0, 13.0, 7.0, 5.0, 14.0, 12.0, 9.0, 2.0, 10.0, 11.0]
+Solución profundidad y poda generada: 189.11487431924166m. 2.3668274879455566 segundos.
+[1.0, 8.0, 11.0, 9.0, 13.0, 5.0, 2.0, 14.0, 12.0, 4.0, 10.0, 6.0, 7.0, 3.0]
+Solución profundidad y poda generada: 155.25679751488315m. 7.87223482131958 segundos.
+[1.0, 2.0, 3.0, 10.0, 8.0, 12.0, 6.0, 4.0, 9.0, 14.0, 13.0, 11.0, 5.0, 7.0]
+Solución profundidad y poda generada: 172.59953181802635m. 5.467180490493774 segundos.
+[1.0, 8.0, 2.0, 12.0, 10.0, 3.0, 14.0, 11.0, 9.0, 13.0, 6.0, 4.0, 7.0, 5.0]
+Solución profundidad y poda generada: 151.47089727004834m. 3.1312568187713623 segundos.
+[1.0, 2.0, 7.0, 9.0, 12.0, 11.0, 10.0, 4.0, 14.0, 13.0, 6.0, 5.0, 3.0, 8.0]
+Solución profundidad y poda generada: 142.4979216825291m. 0.9762616157531738 segundos.
+[1.0, 4.0, 7.0, 10.0, 3.0, 8.0, 13.0, 5.0, 9.0, 12.0, 6.0, 2.0, 11.0, 14.0]
+Solución profundidad y poda generada: 177.0904764498951m. 7.746906995773315 segundos.
+[1.0, 2.0, 4.0, 7.0, 5.0, 12.0, 6.0, 10.0, 3.0, 9.0, 11.0, 14.0, 13.0, 8.0]
+Solución profundidad y poda generada: 176.5855499124425m. 1.9764559268951416 segundos.
+[1.0, 2.0, 11.0, 12.0, 13.0, 14.0, 4.0, 8.0, 10.0, 5.0, 9.0, 6.0, 3.0, 7.0]
+Solución profundidad y poda generada: 150.89359610617578m. 1.6374013423919678 segundos.
+[1.0, 11.0, 12.0, 7.0, 13.0, 2.0, 14.0, 10.0, 4.0, 5.0, 9.0, 6.0, 8.0, 3.0]
+Solución profundidad y poda generada: 159.37626884075868m. 4.638833999633789 segundos.
+[1.0, 5.0, 12.0, 8.0, 11.0, 7.0, 3.0, 4.0, 9.0, 13.0, 2.0, 6.0, 14.0, 10.0]
+Solución profundidad y poda generada: 161.15928110361486m. 3.6795811653137207 segundos.
+[1.0, 14.0, 11.0, 3.0, 13.0, 10.0, 9.0, 7.0, 5.0, 2.0, 4.0, 8.0, 12.0, 6.0]
+Solución profundidad y poda generada: 223.26531683939007m. 3.7474524974823 segundos.
+[1.0, 2.0, 12.0, 8.0, 10.0, 9.0, 4.0, 3.0, 5.0, 6.0, 14.0, 7.0, 11.0, 13.0]
+Solución profundidad y poda generada: 150.91526230122633m. 2.2957985401153564 segundos.
+[1.0, 9.0, 14.0, 2.0, 3.0, 5.0, 6.0, 7.0, 8.0, 12.0, 13.0, 11.0, 10.0, 4.0]
+Solución profundidad y poda generada: 149.8324411039706m. 3.0765597820281982 segundos.
+[1.0, 11.0, 6.0, 8.0, 12.0, 10.0, 13.0, 3.0, 4.0, 9.0, 2.0, 7.0, 5.0, 14.0]
+Solución profundidad y poda generada: 165.97581475835977m. 4.716750383377075 segundos.
+[1.0, 4.0, 6.0, 2.0, 3.0, 13.0, 8.0, 7.0, 14.0, 5.0, 11.0, 12.0, 9.0, 10.0]
+Solución profundidad y poda generada: 176.03256138807834m. 1.2161190509796143 segundos.
+[1.0, 11.0, 2.0, 8.0, 9.0, 3.0, 13.0, 7.0, 6.0, 5.0, 4.0, 14.0, 12.0, 10.0]
+Solución profundidad y poda generada: 168.79446398499118m. 3.2905828952789307 segundos.
+[1.0, 2.0, 6.0, 7.0, 8.0, 9.0, 14.0, 13.0, 5.0, 3.0, 4.0, 10.0, 11.0, 12.0]
+Solución profundidad y poda generada: 163.2048955391303m. 1.3172824382781982 segundos.
+[1.0, 4.0, 13.0, 2.0, 5.0, 14.0, 15.0, 11.0, 6.0, 12.0, 10.0, 3.0, 9.0, 7.0, 8.0]
+Solución profundidad y poda generada: 177.75197568620737m. 5.247342348098755 segundos.
+[1.0, 3.0, 14.0, 10.0, 12.0, 15.0, 2.0, 11.0, 5.0, 9.0, 7.0, 6.0, 13.0, 8.0, 4.0]
+Solución profundidad y poda generada: 198.43704275806192m. 91.33795547485352 segundos.
+[1.0, 10.0, 15.0, 11.0, 14.0, 4.0, 7.0, 5.0, 12.0, 8.0, 2.0, 9.0, 3.0, 6.0, 13.0]
+Solución profundidad y poda generada: 168.0772044244686m. 4.36405086517334 segundos.
+[1.0, 14.0, 12.0, 13.0, 2.0, 4.0, 10.0, 3.0, 5.0, 6.0, 11.0, 15.0, 7.0, 8.0, 9.0]
+Solución profundidad y poda generada: 159.40499919452054m. 17.06289792060852 segundos.
+[1.0, 11.0, 3.0, 9.0, 12.0, 2.0, 7.0, 10.0, 4.0, 15.0, 14.0, 13.0, 8.0, 5.0, 6.0]
+Solución profundidad y poda generada: 175.4557537689233m. 22.759435176849365 segundos.
+[1.0, 6.0, 9.0, 13.0, 11.0, 15.0, 7.0, 10.0, 14.0, 5.0, 2.0, 8.0, 3.0, 4.0, 12.0]
+Solución profundidad y poda generada: 163.2794612304427m. 17.501883506774902 segundos.
+[1.0, 6.0, 14.0, 7.0, 3.0, 9.0, 10.0, 4.0, 5.0, 12.0, 2.0, 8.0, 13.0, 11.0, 15.0]
+Solución profundidad y poda generada: 150.68486614144425m. 5.563695430755615 segundos.
+[1.0, 2.0, 14.0, 7.0, 9.0, 13.0, 8.0, 10.0, 11.0, 6.0, 12.0, 4.0, 5.0, 15.0, 3.0]
+Solución profundidad y poda generada: 181.3518466390137m. 28.49723744392395 segundos.
+[1.0, 11.0, 5.0, 7.0, 14.0, 8.0, 3.0, 12.0, 15.0, 6.0, 13.0, 9.0, 4.0, 10.0, 2.0]
+Solución profundidad y poda generada: 187.99138206438664m. 2.106144666671753 segundos.
+[1.0, 10.0, 9.0, 6.0, 12.0, 11.0, 7.0, 4.0, 13.0, 3.0, 8.0, 2.0, 14.0, 5.0, 15.0]
+Solución profundidad y poda generada: 171.3472771924115m. 10.99065089225769 segundos.
+[1.0, 3.0, 2.0, 8.0, 4.0, 5.0, 13.0, 6.0, 11.0, 12.0, 15.0, 7.0, 9.0, 14.0, 10.0]
+Solución profundidad y poda generada: 140.9363159018903m. 0.8603754043579102 segundos.
+[1.0, 3.0, 14.0, 10.0, 2.0, 11.0, 12.0, 9.0, 13.0, 8.0, 6.0, 4.0, 15.0, 7.0, 5.0]
+Solución profundidad y poda generada: 197.15189400675183m. 7.081713676452637 segundos.
+[1.0, 8.0, 9.0, 10.0, 5.0, 12.0, 11.0, 3.0, 7.0, 15.0, 6.0, 2.0, 13.0, 4.0, 14.0]
+Solución profundidad y poda generada: 164.1588209651045m. 47.68602156639099 segundos.
+[1.0, 3.0, 10.0, 6.0, 11.0, 4.0, 12.0, 5.0, 7.0, 8.0, 15.0, 2.0, 13.0, 9.0, 14.0]
+Solución profundidad y poda generada: 187.8188311660434m. 31.661547422409058 segundos.
+[1.0, 7.0, 4.0, 8.0, 6.0, 9.0, 5.0, 15.0, 14.0, 11.0, 12.0, 10.0, 3.0, 2.0, 13.0]
+Solución profundidad y poda generada: 150.72975802258085m. 60.19964385032654 segundos.
+[1.0, 3.0, 15.0, 7.0, 2.0, 10.0, 12.0, 6.0, 9.0, 5.0, 11.0, 8.0, 4.0, 13.0, 14.0]
+Solución profundidad y poda generada: 171.8032679478589m. 8.900098085403442 segundos.
+[1.0, 5.0, 9.0, 7.0, 14.0, 13.0, 6.0, 15.0, 4.0, 2.0, 3.0, 12.0, 10.0, 8.0, 11.0]
+Solución profundidad y poda generada: 165.22310767253833m. 4.134906530380249 segundos.
+[1.0, 4.0, 13.0, 8.0, 10.0, 14.0, 11.0, 5.0, 9.0, 12.0, 6.0, 7.0, 15.0, 2.0, 3.0]
+Solución profundidad y poda generada: 204.7471162928304m. 13.390790700912476 segundos.
+[1.0, 14.0, 6.0, 8.0, 15.0, 2.0, 3.0, 10.0, 11.0, 7.0, 4.0, 12.0, 9.0, 5.0, 13.0]
+Solución profundidad y poda generada: 158.3749450874649m. 3.803093671798706 segundos.
+[1.0, 10.0, 14.0, 3.0, 15.0, 4.0, 6.0, 12.0, 9.0, 5.0, 13.0, 11.0, 2.0, 8.0, 7.0]
+Solución profundidad y poda generada: 165.34394617291775m. 11.511839628219604 segundos.
+[1.0, 6.0, 5.0, 16.0, 14.0, 7.0, 9.0, 12.0, 8.0, 10.0, 3.0, 11.0, 13.0, 2.0, 4.0, 15.0]
+Solución profundidad y poda generada: 189.97318380094586m. 57.5407919883728 segundos.
+[1.0, 4.0, 9.0, 15.0, 10.0, 6.0, 14.0, 11.0, 12.0, 2.0, 3.0, 16.0, 7.0, 13.0, 8.0, 5.0]
+Solución profundidad y poda generada: 164.08025714989714m. 197.98100757598877 segundos.
+[1.0, 14.0, 10.0, 2.0, 13.0, 12.0, 9.0, 7.0, 6.0, 3.0, 15.0, 11.0, 4.0, 8.0, 5.0, 16.0]
+Solución profundidad y poda generada: 174.3511793932581m. 49.76083159446716 segundos.
+[1.0, 11.0, 10.0, 9.0, 14.0, 16.0, 2.0, 15.0, 4.0, 13.0, 6.0, 7.0, 8.0, 12.0, 5.0, 3.0]
+Solución profundidad y poda generada: 144.66226803638563m. 7.174880027770996 segundos.
+[1.0, 13.0, 4.0, 9.0, 2.0, 16.0, 5.0, 12.0, 15.0, 7.0, 11.0, 10.0, 6.0, 3.0, 8.0, 14.0]
+Solución profundidad y poda generada: 184.49967818017353m. 24.69592046737671 segundos.
+[1.0, 4.0, 2.0, 5.0, 13.0, 14.0, 8.0, 3.0, 9.0, 15.0, 16.0, 12.0, 7.0, 6.0, 11.0, 10.0]
+Solución profundidad y poda generada: 153.2862422673191m. 12.685030698776245 segundos.
+[1.0, 5.0, 13.0, 16.0, 12.0, 11.0, 6.0, 10.0, 9.0, 8.0, 2.0, 3.0, 7.0, 15.0, 4.0, 14.0]
+Solución profundidad y poda generada: 194.65040019389087m. 174.33488368988037 segundos.
+[1.0, 3.0, 7.0, 2.0, 15.0, 9.0, 16.0, 13.0, 6.0, 8.0, 11.0, 5.0, 10.0, 12.0, 4.0, 14.0]
+Solución profundidad y poda generada: 164.058049704721m. 18.660815000534058 segundos.
+[1.0, 10.0, 6.0, 12.0, 16.0, 2.0, 7.0, 5.0, 4.0, 8.0, 13.0, 3.0, 15.0, 11.0, 9.0, 14.0]
+Solución profundidad y poda generada: 181.7803833266646m. 6.0435872077941895 segundos.
+[1.0, 16.0, 15.0, 8.0, 3.0, 9.0, 7.0, 11.0, 2.0, 5.0, 4.0, 14.0, 12.0, 13.0, 10.0, 6.0]
+Solución profundidad y poda generada: 203.58543451088818m. 24.96031618118286 segundos.
+[1.0, 5.0, 13.0, 14.0, 11.0, 7.0, 16.0, 9.0, 3.0, 6.0, 2.0, 15.0, 4.0, 10.0, 12.0, 8.0]
+Solución profundidad y poda generada: 190.91223692401533m. 72.06426954269409 segundos.
+[1.0, 5.0, 6.0, 3.0, 15.0, 16.0, 4.0, 7.0, 10.0, 14.0, 9.0, 8.0, 13.0, 12.0, 2.0, 11.0]
+Solución profundidad y poda generada: 164.60246035243293m. 42.25832915306091 segundos.
+[1.0, 12.0, 7.0, 6.0, 14.0, 15.0, 9.0, 2.0, 16.0, 11.0, 13.0, 5.0, 10.0, 3.0, 4.0, 8.0]
+Solución profundidad y poda generada: 182.2811823156028m. 103.36408567428589 segundos.
+[1.0, 11.0, 15.0, 14.0, 4.0, 3.0, 9.0, 5.0, 6.0, 13.0, 16.0, 2.0, 7.0, 8.0, 10.0, 12.0]
+Solución profundidad y poda generada: 167.17196580150633m. 37.175665855407715 segundos.
+[1.0, 10.0, 9.0, 11.0, 5.0, 6.0, 7.0, 13.0, 2.0, 4.0, 3.0, 12.0, 14.0, 8.0, 16.0, 15.0]
+Solución profundidad y poda generada: 175.14986489487546m. 129.40904784202576 segundos.
+[1.0, 3.0, 4.0, 10.0, 13.0, 5.0, 12.0, 7.0, 11.0, 2.0, 8.0, 15.0, 9.0, 16.0, 6.0, 14.0]
+Solución profundidad y poda generada: 182.3750828257412m. 25.279975414276123 segundos.
+[1.0, 10.0, 12.0, 2.0, 6.0, 3.0, 5.0, 11.0, 13.0, 16.0, 8.0, 9.0, 7.0, 15.0, 14.0, 4.0]
+Solución profundidad y poda generada: 187.2680695755843m. 80.16342496871948 segundos.
+[1.0, 11.0, 3.0, 8.0, 14.0, 6.0, 9.0, 13.0, 7.0, 12.0, 4.0, 2.0, 10.0, 5.0, 16.0, 15.0]
+Solución profundidad y poda generada: 158.63326410979184m. 8.503638744354248 segundos.
+[1.0, 9.0, 16.0, 2.0, 4.0, 3.0, 14.0, 13.0, 5.0, 11.0, 10.0, 15.0, 6.0, 8.0, 12.0, 7.0]
+Solución profundidad y poda generada: 194.4437783586976m. 102.95958161354065 segundos.
+[1.0, 11.0, 8.0, 6.0, 13.0, 12.0, 16.0, 5.0, 10.0, 7.0, 4.0, 3.0, 15.0, 2.0, 14.0, 9.0]
+Solución profundidad y poda generada: 175.93032681760587m. 134.75621223449707 segundos.
+[1.0, 5.0, 13.0, 7.0, 8.0, 3.0, 14.0, 15.0, 10.0, 6.0, 17.0, 4.0, 2.0, 11.0, 9.0, 12.0, 16.0]
+Solución profundidad y poda generada: 204.5440139923324m. 1050.1184394359589 segundos.
+[1.0, 2.0, 8.0, 11.0, 14.0, 7.0, 6.0, 13.0, 15.0, 5.0, 10.0, 16.0, 3.0, 17.0, 12.0, 4.0, 9.0]
+Solución profundidad y poda generada: 177.56147786686498m. 179.6276626586914 segundos.
+[1.0, 13.0, 6.0, 14.0, 9.0, 4.0, 16.0, 12.0, 5.0, 17.0, 2.0, 8.0, 15.0, 11.0, 7.0, 10.0, 3.0]
+Solución profundidad y poda generada: 192.05042573654237m. 375.75000381469727 segundos.
+[1.0, 9.0, 10.0, 17.0, 16.0, 14.0, 4.0, 7.0, 5.0, 15.0, 12.0, 11.0, 8.0, 6.0, 13.0, 3.0, 2.0]
+Solución profundidad y poda generada: 150.25204197685565m. 75.67389965057373 segundos.
+[1.0, 12.0, 4.0, 5.0, 6.0, 7.0, 15.0, 3.0, 10.0, 8.0, 17.0, 13.0, 14.0, 11.0, 16.0, 9.0, 2.0]
+Solución profundidad y poda generada: 153.2921034779925m. 9.374433994293213 segundos.
+[1.0, 9.0, 6.0, 8.0, 4.0, 5.0, 12.0, 17.0, 13.0, 7.0, 3.0, 11.0, 10.0, 15.0, 2.0, 14.0, 16.0]
+Solución profundidad y poda generada: 182.46527520240295m. 312.23221254348755 segundos.
+[1.0, 14.0, 5.0, 2.0, 8.0, 10.0, 3.0, 7.0, 12.0, 4.0, 17.0, 15.0, 6.0, 11.0, 9.0, 13.0, 16.0]
+Solución profundidad y poda generada: 173.38827249608505m. 17.746008157730103 segundos.
+[1.0, 2.0, 9.0, 3.0, 12.0, 11.0, 13.0, 6.0, 15.0, 10.0, 17.0, 8.0, 5.0, 14.0, 16.0, 7.0, 4.0]
+Solución profundidad y poda generada: 182.24808552883454m. 165.6145567893982 segundos.
+[1.0, 15.0, 16.0, 4.0, 10.0, 8.0, 2.0, 17.0, 11.0, 3.0, 9.0, 12.0, 5.0, 7.0, 6.0, 14.0, 13.0]
+Solución profundidad y poda generada: 179.18494819271717m. 79.09846615791321 segundos.
+[1.0, 14.0, 17.0, 11.0, 12.0, 8.0, 7.0, 9.0, 2.0, 4.0, 6.0, 5.0, 15.0, 3.0, 16.0, 13.0, 10.0]
+Solución profundidad y poda generada: 181.4917433235578m. 100.05749702453613 segundos.
+[1.0, 2.0, 3.0, 17.0, 14.0, 11.0, 13.0, 6.0, 8.0, 15.0, 7.0, 4.0, 5.0, 10.0, 16.0, 12.0, 9.0]
+Solución profundidad y poda generada: 182.49699638941112m. 45.23152565956116 segundos.
+[1.0, 4.0, 17.0, 10.0, 8.0, 14.0, 15.0, 2.0, 16.0, 11.0, 5.0, 9.0, 7.0, 12.0, 13.0, 3.0, 6.0]
+Solución profundidad y poda generada: 195.52471250179795m. 52.63621759414673 segundos.
+[1.0, 10.0, 3.0, 5.0, 17.0, 4.0, 7.0, 6.0, 14.0, 16.0, 12.0, 8.0, 2.0, 15.0, 13.0, 9.0, 11.0]
+Solución profundidad y poda generada: 157.34029655605252m. 676.8521976470947 segundos.
+[1.0, 2.0, 12.0, 10.0, 7.0, 8.0, 4.0, 3.0, 11.0, 16.0, 5.0, 15.0, 17.0, 6.0, 9.0, 14.0, 13.0]
+Solución profundidad y poda generada: 186.57699100386108m. 84.76490020751953 segundos.
+[1.0, 17.0, 12.0, 11.0, 13.0, 9.0, 15.0, 16.0, 2.0, 6.0, 3.0, 14.0, 7.0, 10.0, 5.0, 4.0, 8.0]
+Solución profundidad y poda generada: 176.790267699286m. 45.87608575820923 segundos.
+[1.0, 12.0, 3.0, 14.0, 7.0, 9.0, 4.0, 2.0, 10.0, 15.0, 13.0, 16.0, 17.0, 8.0, 6.0, 5.0, 11.0]
+Solución profundidad y poda generada: 172.31005902886736m. 115.02877020835876 segundos.
+[1.0, 17.0, 14.0, 12.0, 7.0, 8.0, 9.0, 10.0, 15.0, 11.0, 2.0, 16.0, 3.0, 4.0, 6.0, 13.0, 5.0]
+Solución profundidad y poda generada: 168.85860355707234m. 68.89665627479553 segundos.
+[1.0, 4.0, 17.0, 8.0, 13.0, 14.0, 6.0, 9.0, 15.0, 2.0, 10.0, 3.0, 11.0, 5.0, 12.0, 7.0, 16.0]
+Solución profundidad y poda generada: 170.3850119646036m. 99.79109859466553 segundos.
+[1.0, 5.0, 6.0, 10.0, 13.0, 16.0, 2.0, 9.0, 11.0, 4.0, 12.0, 14.0, 3.0, 7.0, 17.0, 15.0, 8.0]
+Solución profundidad y poda generada: 156.9884098469713m. 21.894415140151978 segundos.
+[1.0, 13.0, 4.0, 17.0, 8.0, 7.0, 16.0, 5.0, 10.0, 3.0, 6.0, 11.0, 14.0, 12.0, 15.0, 2.0, 9.0]
+Solución profundidad y poda generada: 195.5494303498906m. 197.23290848731995 segundos.
+[1.0, 5.0, 2.0, 11.0, 6.0, 10.0, 18.0, 13.0, 3.0, 7.0, 9.0, 15.0, 12.0, 4.0, 8.0, 16.0, 14.0, 17.0]
+Solución profundidad y poda generada: 188.43007589953177m. 367.93323588371277 segundos.
+[1.0, 6.0, 12.0, 2.0, 14.0, 15.0, 17.0, 4.0, 13.0, 8.0, 10.0, 16.0, 3.0, 5.0, 7.0, 18.0, 9.0, 11.0]
+Solución profundidad y poda generada: 193.10192971962613m. 470.8751780986786 segundos.
+[1.0, 8.0, 6.0, 5.0, 7.0, 18.0, 4.0, 15.0, 16.0, 13.0, 12.0, 11.0, 10.0, 9.0, 14.0, 2.0, 3.0, 17.0]
+Solución profundidad y poda generada: 163.8257437350956m. 203.28978037834167 segundos.
+[1.0, 2.0, 5.0, 4.0, 16.0, 12.0, 11.0, 14.0, 13.0, 15.0, 18.0, 10.0, 8.0, 9.0, 17.0, 3.0, 7.0, 6.0]
+Solución profundidad y poda generada: 182.4926130704163m. 585.4536895751953 segundos.
