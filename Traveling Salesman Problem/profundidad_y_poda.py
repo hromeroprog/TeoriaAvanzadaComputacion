@@ -24,12 +24,19 @@ def g(graph: np.array, visited: np.array, level: int, adding_node: int):
     bound = 0
     for i in range(graph.shape[0]):
         minim = np.inf
+        second_minim = np.inf
         if not visited[i] and i != adding_node:
             for j in range(graph.shape[0]):
                 if graph[i][j] > 0 and graph[i][j] < minim:
+                    second_minim = minim
                     minim = graph[i][j]
-            if bound != np.inf:
-                bound = bound + minim
+                    
+                elif graph[i][j] > 0 and graph[i][j] < second_minim:
+                    second_minim = graph[i][j]
+            if minim != np.inf:
+                bound = bound + (minim+second_minim)/2
+            
+            
     return bound
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
@@ -70,7 +77,7 @@ def branchAndBound(tsp):
     curr_path[0] = 0
     final_res = np.array([np.inf])
     TSPRec(tsp.graph, 0, 1, curr_path, visited, final_path, final_res)
-    tsp.solution = list(map(lambda x: x+1, final_path.tolist()[:-1]))
+    tsp.solution = list(map(lambda x: int(x+1), final_path.tolist()[:-1]))
     print(tsp.solution)
     end = time.time()
     print(f'Solución profundidad y poda generada: {tsp.compute_dist()}m. {end-start} segundos.')

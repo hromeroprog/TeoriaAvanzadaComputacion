@@ -13,9 +13,18 @@ from time import sleep
 #Sirve como base para que haya un primer vistazo a como se trabajaría
 if __name__ == '__main__':
     tsp = TSP() #Crear el objeto
-    tsp.obtener_desde_archivo_tsp('./TSP_generados/Aleatorio1620397769_18.tsp')
-    tsp.aplicar_mejor_solucion_desde_archivo()
+    time = 0.0
+    total = 10
+    for _ in range(total):
+        tsp = TSP()
+        tsp.obtener_random(15)
+        timei = branchAndBound(tsp)
+        if _>0:
+            time += timei
     tsp.draw_with_solution()
+    
+    print(f'Media de tiempos: {time/(total-1)}')
+    
 
     
     # No se recomienda probar el backtracking con el archivo .tsp,
