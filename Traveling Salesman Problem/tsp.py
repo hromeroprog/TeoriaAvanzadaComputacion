@@ -92,8 +92,9 @@ class TSP:
     # Puede ser util para evaluar varias soluciones sobre un mismo escenario
     # pero que una soluciones no influyan sobre las otras
     def shuffle(self):
-        random.shuffle(self.solution)
-        self.ordenar_solucion()
+        aux = self.solution[1:]
+        random.shuffle(aux)
+        self.solution[1:] = aux
     
     #Función greedy_solve(self) -> float implementada por Hugo Romero
     #Solucion con algoritmo greedy, la siguiente ciudad es la mas cercana no visitada
@@ -107,13 +108,11 @@ class TSP:
             current = new_solution[-1]
             current_distance = float('inf')
             current_best = -1
-
             for city in to_put:
-                dist = self.distance(current, city)
+                dist = self.graph[current-1][city-1]
                 if dist < current_distance:
                     current_distance = dist
                     current_best = city
-
             new_solution.append(current_best)
             to_put.remove(current_best)
         new_solution.append(to_put.pop())
@@ -305,13 +304,8 @@ class TSP:
     #Función ordenar_solucion(self) implementada por Hugo Romero
     # Desplaza (shift) la solucion para que la ruta comience por la primera ciudad
     def ordenar_solucion(self):
-        primero = None
-        while (primero != list(self.problema.keys())[0]):
-            primero = self.solution.pop(0)
-            self.solution.append(primero)
-
-        self.solution = self.solution[:-1]
-        self.solution.insert(0, primero)
+        while (self.solution[0] != list(self.problema.keys())[0]):
+            self.solution.insert(0, self.solution.pop(-1))
     
     #Función draw(self) implementada por Hugo Romero
     # Dibuja el problema

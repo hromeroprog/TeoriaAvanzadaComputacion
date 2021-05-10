@@ -33,8 +33,26 @@ def g(graph: np.array, visited: np.array, level: int, adding_node: int):
                     
                 elif graph[i][j] > 0 and graph[i][j] < second_minim:
                     second_minim = graph[i][j]
-            if minim != np.inf:
+            bound = bound + (minim+second_minim)/2
+    return bound
+
+@njit
+def g2(graph: np.array, visited: np.array, level: int, adding_node: int): 
+    bound = 0
+    for i in range(graph.shape[0]):
+        minim = np.inf
+        second_minim = np.inf
+        if not visited[i] and i != adding_node:
+            for j in range(graph.shape[0]):
+                if graph[i][j] > 0 and graph[i][j] < minim and (not visited[j] or j==0 or j==level-1):
+                    second_minim = minim
+                    minim = graph[i][j]
+                    
+                elif graph[i][j] > 0 and graph[i][j] < second_minim:
+                    second_minim = graph[i][j]
+            if minim < np.inf and second_minim < np.inf:
                 bound = bound + (minim+second_minim)/2
+    return bound
             
             
     return bound
@@ -53,7 +71,7 @@ def TSPRec(graph: np.array, curr_weight: int,level: int, curr_path: np.array, vi
     for i in range(graph.shape[0]):
         if (graph[curr_path[level-1]][i] != 0 and visited[i] == False):
             curr_weight = curr_weight + graph[curr_path[level - 1]][i]
-            curr_bound = g(graph, visited, level, i) #Aqui se hace la llamada a la heuristica
+            curr_bound = g2(graph, visited, level, i) #Aqui se hace la llamada a la heuristica
             if curr_bound + curr_weight < final_res[0]:
                 curr_path[level] = i
                 visited[i] = True

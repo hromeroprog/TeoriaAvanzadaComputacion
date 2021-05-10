@@ -6,31 +6,22 @@ Created on Tue May  4 12:02:52 2021
 """
 
 from TSP import TSP
+import numpy as np
 from profundidad_y_poda import branchAndBound
-from time import sleep
+import time
 
-#Función main implementada por Hugo Romero
-#Sirve como base para que haya un primer vistazo a como se trabajaría
+def t_s(tsp):
+    tsp.shuffle()
+    start = time.time()
+    tsp.r_solve()
+    end = time.time()
+    print(end-start)
+    return end-start
+    
 if __name__ == '__main__':
-    tsp = TSP() #Crear el objeto
-    time = 0.0
-    total = 10
-    for _ in range(total):
-        tsp = TSP()
-        tsp.obtener_random(15)
-        timei = branchAndBound(tsp)
-        if _>0:
-            time += timei
-    tsp.draw_with_solution()
+    tsp = TSP()
+    tsp.obtener_random(3000)
+    t_s(tsp)
     
-    print(f'Media de tiempos: {time/(total-1)}')
     
-
     
-    # No se recomienda probar el backtracking con el archivo .tsp,
-    # si este tiene demasiadas dimensiones empezar con generaciones
-    # aleatorias y tratar de reducir la computacion con podas y/o heuristicas.
-    # La complejidad crece muy rápidamente y se puede bloquear el ordenador.
-    
-    #tsp.backtracking_solve()
-    #tsp.draw_with_solution()
