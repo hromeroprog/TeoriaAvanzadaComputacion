@@ -10,18 +10,24 @@ import numpy as np
 from profundidad_y_poda import branchAndBound
 import time
 
-def t_s(tsp):
-    tsp.shuffle()
-    start = time.time()
-    tsp.r_solve()
-    end = time.time()
-    print(end-start)
-    return end-start
+
     
 if __name__ == '__main__':
     tsp = TSP()
-    tsp.obtener_random(3000)
-    t_s(tsp)
+    tsp.obtener_random(13)
+    
+    tsp.greedy_solve()
+    tsp.opt2()
+    tsp.draw_with_solution()
+    
+    tsp.r_solve()
+    tsp.opt2()
+    tsp.draw_with_solution()
+    
+    
+    
+    branchAndBound(tsp)
+    tsp.draw_with_solution()
     
     
     
