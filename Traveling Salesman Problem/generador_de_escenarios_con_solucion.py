@@ -8,6 +8,7 @@ Created on Tue May  4 12:02:52 2021
 from TSP import TSP
 from profundidad_y_poda import branchAndBound
 from time import sleep
+import pandas as pd
 
 #Función main implementada por Hugo Romero
 #Sirve como base para que haya un primer vistazo a como se trabajaría
@@ -15,9 +16,11 @@ if __name__ == '__main__':
     tsp = TSP() #Crear el objeto
     
     min_dim = 4
-    max_dim = 19
+    max_dim = 20
     scenarios_per_dim = 20
     tiempos = {}
+    
+    
     for dim in range(min_dim, max_dim):
         tiempos[dim] = []
         for i in range(scenarios_per_dim):
@@ -27,6 +30,12 @@ if __name__ == '__main__':
             tiempos[dim].append(time)
             tsp.save_scenario()
             tsp.save_solucion()
+            df = pd.DataFrame(tiempos)
+            df.to_csv('tiempos_branch_ejecucion.csv', index = False)
+        
+            
+    
+
 
     
     # No se recomienda probar el backtracking con el archivo .tsp,

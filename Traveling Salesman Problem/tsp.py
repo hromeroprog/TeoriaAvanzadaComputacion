@@ -307,6 +307,8 @@ class TSP:
         while (self.solution[0] != list(self.problema.keys())[0]):
             self.solution.insert(0, self.solution.pop(-1))
     
+    
+    
     #Función draw(self) implementada por Hugo Romero
     # Dibuja el problema
     def draw(self):

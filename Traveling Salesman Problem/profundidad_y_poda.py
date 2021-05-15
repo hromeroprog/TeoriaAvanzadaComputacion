@@ -53,9 +53,6 @@ def g2(graph: np.array, visited: np.array, level: int, adding_node: int):
             if minim < np.inf and second_minim < np.inf:
                 bound = bound + (minim+second_minim)/2
     return bound
-            
-            
-    return bound
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
 
