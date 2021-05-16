@@ -10,38 +10,26 @@ from profundidad_y_poda import branchAndBound
 from time import sleep
 import pandas as pd
 
-#Función main implementada por Hugo Romero
-#Sirve como base para que haya un primer vistazo a como se trabajaría
 if __name__ == '__main__':
     tsp = TSP() #Crear el objeto
     
     min_dim = 4
-    max_dim = 20
+    max_dim = 21
     scenarios_per_dim = 20
     tiempos = {}
     
     
     for dim in range(min_dim, max_dim):
-        tiempos[dim] = []
+        tiempos[dim] = [None]*scenarios_per_dim
         for i in range(scenarios_per_dim):
             sleep(1)
             tsp.obtener_random(dim)
             time = branchAndBound(tsp)
-            tiempos[dim].append(time)
+            tiempos[dim][i] = time
             tsp.save_scenario()
             tsp.save_solucion()
             df = pd.DataFrame(tiempos)
             df.to_csv('tiempos_branch_ejecucion.csv', index = False)
-        
+            print(f'Generado {i+1}/{scenarios_per_dim} de {dim} ciudades')
             
-    
-
-
-    
-    # No se recomienda probar el backtracking con el archivo .tsp,
-    # si este tiene demasiadas dimensiones empezar con generaciones
-    # aleatorias y tratar de reducir la computacion con podas y/o heuristicas.
-    # La complejidad crece muy rápidamente y se puede bloquear el ordenador.
-    
-    #tsp.backtracking_solve()
-    #tsp.draw_with_solution()
+           

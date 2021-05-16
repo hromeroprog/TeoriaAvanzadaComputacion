@@ -58,9 +58,9 @@ class TSP:
     #Si el escenario proviene de un fichero tsp, lee la solucion del archivo de
     #solucion correspondiente
     def aplicar_mejor_solucion_desde_archivo(self):
-        if '.tsp' not in self.filename:
-            print(f'El escenario {self.nombre} no fue generado apartir de un archivo .tsp')
-            return
+        # if '.tsp' not in self.filename:
+        #     print(f'El escenario {self.nombre} no fue generado apartir de un archivo .tsp')
+        #     return
         solution_file =  self.filename.replace('.tsp', '') + ".opt.tour"
         
         lines = read_file(solution_file)
