@@ -29,9 +29,18 @@ if __name__ == '__main__':
     height = 7.2
     plt.figure(0, figsize=(width, height))
     df = df.iloc[:, 9:18]
-        
-    plt.scatter(list(map(lambda x: x**2*2**x, list(map(int, df.columns)))), df.mean().values,s=15, marker='x', c='black', label = 'Tiempo de ejecución')
+    
+    plt.scatter(list(map(int, df.columns)), df.mean().values,s=15, marker='x', c='black', label = 'Tiempo de ejecución')
 
+    plt.legend()
+    plt.xlabel('Dimension ciudades')
+    plt.ylabel('media de tiempos de ejecución (segundos)')
+    plt.title('Medias tiempos de ejecución método Branch and Bound')
+    
+    plt.figure(1, figsize=(width, height))
+    plt.scatter(list(map(lambda x: x**2*2**x, list(map(int, df.columns)))), df.mean().values,s=15, marker='x', c='black', label = 'Tiempo de ejecución')
+    
+    
     plt.legend()
     plt.xlabel('Dimension transformada (n^2 * 2^n)')
     plt.ylabel('media de tiempos de ejecución (segundos)')
