@@ -4,9 +4,8 @@ Created on Thu May  6 12:54:23 2021
 
 @author: 2rome
 """
-from TSP import TSP
 import time
-from numba import jit,njit
+from numba import njit
 import numpy as np
 
 #Adaptación realizada por Hugo Romero sobre el código de ng24_7 en geeksforgeeks
