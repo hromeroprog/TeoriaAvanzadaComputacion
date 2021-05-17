@@ -1,0 +1,3 @@
+Para poder ejecutar online el trabajo hemos hecho uso de binder. En el siguiente link puedes acceder al repositorio en version binder. Debes entrar a la carpeta Traveling SalesMan Problem y posteriormente hacer click en el archivo practica_TSP.ipynb.
+
+https://mybinder.org/v2/gh/hromeroprog/TeoriaAvanzadaComputacion/7c8b31dc60b379dca647a1a9890ec38baf3d1aec
